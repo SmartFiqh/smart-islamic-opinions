@@ -31,9 +31,29 @@ class _ResultScreenState extends State<ResultScreen> {
       return Scaffold(
         appBar: AppBar(title: Text(isRtl ? 'لا توجد نتائج' : 'No Results')),
         body: Center(
-          child: Text(isRtl
-              ? '🤔 لا أعلم (عفواً). لم أعثر على إجابة. حاول إعادة الصياغة.'
-              : '🤔 I don\'t know. I couldn\'t find an answer.'),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                isRtl
+                    ? '🤔 لا أعلم (عفواً). لم أعثر على إجابة. حاول إعادة الصياغة.'
+                    : '🤔 I don\'t know. I couldn\'t find an answer.',
+                style: const TextStyle(fontSize: 18),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 20),
+              ElevatedButton.icon(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (_) => const ContactScreen()),
+                  );
+                },
+                icon: const Icon(Icons.contact_mail),
+                label: Text(isRtl ? '📩 تواصل مع فريق البحث' : '📩 Contact Research Team'),
+              ),
+            ],
+          ),
         ),
       );
     }
