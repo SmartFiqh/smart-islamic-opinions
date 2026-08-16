@@ -13,6 +13,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: ^0.19.0
+  url_launcher: ^6.2.0   # ✅ إضافة حزمة فتح البريد الإلكتروني
 
 dev_dependencies:
   flutter_test:
