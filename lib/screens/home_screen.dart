@@ -4,11 +4,12 @@ import '../providers/search_provider.dart';
 import '../providers/filter_provider.dart';
 import '../providers/language_provider.dart';
 import '../models/issue_model.dart';
+import '../core/responsive.dart';
 import 'result_screen.dart';
 import 'imams_screen.dart';
 import 'geography_screen.dart';
 import 'glossary_screen.dart';
-import 'contact_screen.dart'; // ✅ استيراد شاشة التواصل
+import 'contact_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -22,14 +23,16 @@ class HomeScreen extends StatelessWidget {
         lang.currentLocale.languageCode == 'fa' ||
         lang.currentLocale.languageCode == 'ur';
 
+    // على الديسكتوب: نعرض المسائل التجريبية في شبكة عمودين+ بدل قائمة طويلة
+    final wide = isDesktop(context) || isTablet(context);
+    final mockIssues = IssueModel.getMockIssues();
+
     return Scaffold(
       appBar: AppBar(
         title: Text(isRtl ? 'الرئيسية' : 'Home'),
         actions: [
           IconButton(
-            onPressed: () {
-              _showSettingsDialog(context);
-            },
+            onPressed: () => _showSettingsDialog(context),
             icon: const Icon(Icons.settings),
           ),
         ],
@@ -69,7 +72,6 @@ class HomeScreen extends StatelessWidget {
                 MaterialPageRoute(builder: (_) => const GlossaryScreen()),
               ),
             ),
-            // ✅ إضافة زر التواصل
             ListTile(
               leading: const Icon(Icons.contact_mail),
               title: Text(isRtl ? '📩 تواصل معنا' : '📩 Contact Us'),
@@ -81,104 +83,96 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          children: [
-            Row(
-              children: [
-                Expanded(
-                  child: TextField(
-                    onChanged: (value) => search.updateQuery(value),
-                    decoration: InputDecoration(
-                      hintText: isRtl
-                          ? 'ابحث عن مسألة... (مثال: صلاة الجماعة)'
-                          : 'Search for an issue... (e.g., congregational prayer)',
-                      border: OutlineInputBorder(borderRadius: BorderRadius.circular(30)),
-                      prefixIcon: const Icon(Icons.search),
-                    ),
-                    onSubmitted: (value) async {
-                      await search.search(value, lang.currentLocale.languageCode);
-                      if (search.results.isNotEmpty) {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (_) => const ResultScreen()),
-                        );
-                      } else {
-                        // ✅ تحسين خاصية "لا أعلم" مع خيار التواصل
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(
-                            content: Text(
-                              isRtl
-                                  ? '🤔 لا أعلم (عفواً). لم أعثر على إجابة. هل تريد طرح سؤالك على فريق البحث؟'
-                                  : '🤔 I don\'t know. I couldn\'t find an answer. Want to ask our research team?',
-                            ),
-                            duration: const Duration(seconds: 5),
-                            action: SnackBarAction(
-                              label: isRtl ? '📩 تواصل' : '📩 Contact',
-                              onPressed: () {
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(builder: (_) => const ContactScreen()),
-                                );
-                              },
-                            ),
-                          ),
-                        );
-                      }
-                    },
-                  ),
-                ),
-                IconButton(onPressed: () {}, icon: const Icon(Icons.mic)),
-              ],
-            ),
-            const SizedBox(height: 16),
-            // تصنيفات سريعة
-            SizedBox(
-              height: 50,
-              child: ListView(
-                scrollDirection: Axis.horizontal,
+      body: ResponsiveCenter(
+        maxWidth: 1000,
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            children: [
+              Row(
                 children: [
-                  _buildCategoryChip(isRtl ? '🧼 الطهارة' : '🧼 Purification'),
-                  _buildCategoryChip(isRtl ? '🕌 الصلاة' : '🕌 Prayer'),
-                  _buildCategoryChip(isRtl ? '💰 الزكاة' : '💰 Zakat'),
-                  _buildCategoryChip(isRtl ? '🌙 الصوم' : '🌙 Fasting'),
-                  _buildCategoryChip(isRtl ? '🕋 الحج' : '🕋 Hajj'),
-                  _buildCategoryChip(isRtl ? '🏦 المعاملات' : '🏦 Transactions'),
-                ],
-              ),
-            ),
-            const SizedBox(height: 16),
-            // قائمة المسائل النموذجية
-            Expanded(
-              child: ListView.builder(
-                itemCount: 5,
-                itemBuilder: (ctx, index) {
-                  final issue = IssueModel.getMockIssue();
-                  return Card(
-                    margin: const EdgeInsets.symmetric(vertical: 6),
-                    child: ListTile(
-                      title: Text(issue.getTitle(lang.currentLocale.languageCode)),
-                      subtitle: Text(isRtl ? 'اضغط لعرض آراء المذاهب' : 'Tap to view schools\' views'),
-                      trailing: const Icon(Icons.arrow_forward_ios),
-                      onTap: () {
-                        search.updateQuery(issue.getTitle(lang.currentLocale.languageCode));
-                        search.search(issue.getTitle(lang.currentLocale.languageCode), lang.currentLocale.languageCode);
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (_) => const ResultScreen()),
-                        );
+                  Expanded(
+                    child: TextField(
+                      onChanged: (value) => search.updateQuery(value),
+                      decoration: InputDecoration(
+                        hintText: isRtl
+                            ? 'ابحث عن مسألة... (مثال: صلاة الجماعة)'
+                            : 'Search for an issue... (e.g., congregational prayer)',
+                        border: OutlineInputBorder(borderRadius: BorderRadius.circular(30)),
+                        prefixIcon: const Icon(Icons.search),
+                      ),
+                      onSubmitted: (value) async {
+                        await search.search(value, lang.currentLocale.languageCode);
+                        if (!context.mounted) return;
+                        if (search.results.isNotEmpty) {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (_) => const ResultScreen()),
+                          );
+                        } else {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            SnackBar(
+                              content: Text(
+                                isRtl
+                                    ? '🤔 لا أعلم (عفواً). لم أعثر على إجابة. هل تريد طرح سؤالك على فريق البحث؟'
+                                    : '🤔 I don\'t know. I couldn\'t find an answer. Want to ask our research team?',
+                              ),
+                              duration: const Duration(seconds: 5),
+                              action: SnackBarAction(
+                                label: isRtl ? '📩 تواصل' : '📩 Contact',
+                                onPressed: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (_) => const ContactScreen()),
+                                  );
+                                },
+                              ),
+                            ),
+                          );
+                        }
                       },
                     ),
-                  );
-                },
+                  ),
+                  IconButton(onPressed: () {}, icon: const Icon(Icons.mic)),
+                ],
               ),
-            ),
-            Text(
-              '${isRtl ? 'الفلتر الحالي:' : 'Current filter:'} ${filter.getCurrentGroupName(lang.currentLocale.languageCode)}',
-              style: const TextStyle(color: Colors.grey),
-            ),
-          ],
+              const SizedBox(height: 16),
+              SizedBox(
+                height: 50,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: [
+                    _buildCategoryChip(isRtl ? '🧼 الطهارة' : '🧼 Purification'),
+                    _buildCategoryChip(isRtl ? '🕌 الصلاة' : '🕌 Prayer'),
+                    _buildCategoryChip(isRtl ? '💰 الزكاة' : '💰 Zakat'),
+                    _buildCategoryChip(isRtl ? '🌙 الصوم' : '🌙 Fasting'),
+                    _buildCategoryChip(isRtl ? '🕋 الحج' : '🕋 Hajj'),
+                    _buildCategoryChip(isRtl ? '🏦 المعاملات' : '🏦 Transactions'),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 16),
+              Expanded(
+                child: SingleChildScrollView(
+                  child: wide
+                      ? ResponsiveGrid(
+                          children: mockIssues
+                              .map((issue) => _IssueCard(issue: issue, isRtl: isRtl, lang: lang.currentLocale.languageCode))
+                              .toList(),
+                        )
+                      : Column(
+                          children: mockIssues
+                              .map((issue) => _IssueCard(issue: issue, isRtl: isRtl, lang: lang.currentLocale.languageCode))
+                              .toList(),
+                        ),
+                ),
+              ),
+              Text(
+                '${isRtl ? 'الفلتر الحالي:' : 'Current filter:'} ${filter.getCurrentGroupName(lang.currentLocale.languageCode)}',
+                style: const TextStyle(color: Colors.grey),
+              ),
+            ],
+          ),
         ),
       ),
     );
@@ -193,5 +187,34 @@ class HomeScreen extends StatelessWidget {
 
   void _showSettingsDialog(BuildContext context) {
     // يمكنك تنفيذ مربع حوار لتغيير اللغة والفلتر بسرعة
+  }
+}
+
+class _IssueCard extends StatelessWidget {
+  final IssueModel issue;
+  final bool isRtl;
+  final String lang;
+
+  const _IssueCard({required this.issue, required this.isRtl, required this.lang});
+
+  @override
+  Widget build(BuildContext context) {
+    final search = Provider.of<SearchProvider>(context, listen: false);
+    return Card(
+      margin: const EdgeInsets.symmetric(vertical: 6),
+      child: ListTile(
+        title: Text(issue.getTitle(lang)),
+        subtitle: Text(isRtl ? 'اضغط لعرض آراء المذاهب' : 'Tap to view schools\' views'),
+        trailing: const Icon(Icons.arrow_forward_ios),
+        onTap: () {
+          search.updateQuery(issue.getTitle(lang));
+          search.search(issue.getTitle(lang), lang);
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (_) => const ResultScreen()),
+          );
+        },
+      ),
+    );
   }
 }
