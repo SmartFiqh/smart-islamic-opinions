@@ -16,11 +16,11 @@ dependencies:
   url_launcher: ^6.2.0
   google_generative_ai: ^0.4.0
   flutter_dotenv: ^5.1.0
-  
-  # Firebase
+
+  # Firebase — يخدم Flutter و Streamlit بيانات مشتركة (issues/comments)
   firebase_core: ^2.24.2
   cloud_firestore: ^4.14.0
-  
+
   flutter_web_plugins:
     sdk: flutter
 
@@ -31,8 +31,15 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  generate: true
+  # ملاحظة 1: أُزيل `generate: true` لعدم وجود l10n.yaml/ملفات ARB —
+  # كان سيمنع البناء (flutter build) بالكامل. الترجمة هنا تتم يدوياً
+  # عبر isRtl/switch كما في كل الشاشات الحالية، وهذا يعمل بلا مشاكل.
+  #
+  # ملاحظة 2: أُزيلت google-services.json/GoogleService-Info.plist من
+  # هنا لأنها ليست "أصول Flutter" — هذين الملفين توضعهما أدوات Firebase
+  # (flutterfire configure) في android/app و ios/Runner مباشرة، ووضعهما
+  # كـ assets سابقاً كان سيمنع البناء إن لم يكونا موجودين فعلياً بذلك
+  # المسار. شغّل `flutterfire configure` مرة واحدة لإنشاء
+  # lib/firebase_options.dart تلقائياً بدلاً من ذلك.
   assets:
     - .env
-    - google-services.json
-    - GoogleService-Info.plist
