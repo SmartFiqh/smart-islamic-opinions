@@ -8,6 +8,7 @@ import 'result_screen.dart';
 import 'imams_screen.dart';
 import 'geography_screen.dart';
 import 'glossary_screen.dart';
+import 'contact_screen.dart'; // ✅ استيراد شاشة التواصل
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -68,6 +69,15 @@ class HomeScreen extends StatelessWidget {
                 MaterialPageRoute(builder: (_) => const GlossaryScreen()),
               ),
             ),
+            // ✅ إضافة زر التواصل
+            ListTile(
+              leading: const Icon(Icons.contact_mail),
+              title: Text(isRtl ? '📩 تواصل معنا' : '📩 Contact Us'),
+              onTap: () => Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const ContactScreen()),
+              ),
+            ),
           ],
         ),
       ),
@@ -95,12 +105,23 @@ class HomeScreen extends StatelessWidget {
                           MaterialPageRoute(builder: (_) => const ResultScreen()),
                         );
                       } else {
+                        // ✅ تحسين خاصية "لا أعلم" مع خيار التواصل
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(
                             content: Text(
                               isRtl
-                                  ? '🤔 لا أعلم (عفواً). لم أعثر على إجابة. حاول إعادة الصياغة.'
-                                  : '🤔 I don\'t know (Apologies). I couldn\'t find an answer. Try rephrasing.',
+                                  ? '🤔 لا أعلم (عفواً). لم أعثر على إجابة. هل تريد طرح سؤالك على فريق البحث؟'
+                                  : '🤔 I don\'t know. I couldn\'t find an answer. Want to ask our research team?',
+                            ),
+                            duration: const Duration(seconds: 5),
+                            action: SnackBarAction(
+                              label: isRtl ? '📩 تواصل' : '📩 Contact',
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (_) => const ContactScreen()),
+                                );
+                              },
                             ),
                           ),
                         );
