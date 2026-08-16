@@ -13,7 +13,16 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: ^0.19.0
-  url_launcher: ^6.2.0   # ✅ إضافة حزمة فتح البريد الإلكتروني
+  url_launcher: ^6.2.0
+  google_generative_ai: ^0.4.0
+  flutter_dotenv: ^5.1.0
+  
+  # Firebase
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.14.0
+  
+  flutter_web_plugins:
+    sdk: flutter
 
 dev_dependencies:
   flutter_test:
@@ -23,3 +32,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   generate: true
+  assets:
+    - .env
+    - google-services.json
+    - GoogleService-Info.plist
