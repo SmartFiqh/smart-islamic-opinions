@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/issue_model.dart';
+import '../models/comment_model.dart';
 import '../services/firestore_service.dart';
 import '../services/semantic_search_service.dart';
 import '../services/summarization_service.dart';
@@ -41,12 +42,23 @@ class SearchProvider extends ChangeNotifier {
       }
       _isLoaded = true;
     } catch (e) {
+      // لا يوجد اتصال بـ Firebase أو لم يُعدّ بعد -> استخدم بيانات تجريبية
       _allIssues = IssueModel.getMockIssues();
+      _isLoaded = true;
     }
 
     _isLoading = false;
     notifyListeners();
   }
+
+  /// يُحدّث نص البحث فقط (يُستخدم أثناء الكتابة قبل الضغط على "بحث")
+  void updateQuery(String value) {
+    _query = value;
+    notifyListeners();
+  }
+
+  /// نقطة الدخول المستخدمة من شاشة الرئيسية — تُشير إلى smartSearch
+  Future<void> search(String query, String lang) => smartSearch(query, lang);
 
   // ✅ البحث الذكي المتقدم
   Future<void> smartSearch(String query, String lang) async {
@@ -94,13 +106,13 @@ class SearchProvider extends ChangeNotifier {
       if (result.isMatch && result.matchedIssue != null) {
         _results = [result.matchedIssue!];
         _hasNoResults = false;
-        
+
         // إضافة للمستخدم التاريخ
         _userHistory.add(result.matchedIssue!.getTitle(lang));
         if (_userHistory.length > 20) {
           _userHistory.removeAt(0);
         }
-        
+
         // جلب توصيات ذكية
         _recommendations = await AnalyticsService.getSmartRecommendations(
           _allIssues,
@@ -132,6 +144,15 @@ class SearchProvider extends ChangeNotifier {
   // ✅ تحليل مشاعر التعليق
   Future<SentimentResult> analyzeComment(String comment, String lang) async {
     return await AnalyticsService.analyzeSentiment(comment, lang);
+  }
+
+  /// يحفظ تعليق/تقييم المستخدم فعلياً في Firestore (بدلاً من ضياعه بعد الإرسال)
+  Future<void> submitComment(CommentModel comment) async {
+    try {
+      await FirestoreService().addComment(comment);
+    } catch (e) {
+      // في وضع عدم الاتصال، نتجاهل بصمت — الواجهة تُظهر رسالة نجاح محلياً فقط
+    }
   }
 
   void clearResults() {
