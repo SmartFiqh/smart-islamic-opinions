@@ -4,7 +4,7 @@ class CommentModel {
   final String userName;
   final String commentText;
   final double rating;
-  final String type; // 'suggestion', 'correction', 'appreciation', 'other'
+  final String type;
   final DateTime timestamp;
   final bool isApproved;
 
