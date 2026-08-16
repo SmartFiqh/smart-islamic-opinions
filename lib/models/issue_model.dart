@@ -40,6 +40,37 @@ class MadhabView {
       default: return evidenceAr;
     }
   }
+
+  // ---- إضافة: تحويل من/إلى Firestore (لا تغيّر أي شيء في الحقول أعلاه) ----
+  Map<String, dynamic> toMap() => {
+        'madhabId': madhabId,
+        'ruling': ruling,
+        'detailTextAr': detailTextAr,
+        'detailTextEn': detailTextEn,
+        'detailTextFa': detailTextFa,
+        'detailTextUr': detailTextUr,
+        'detailTextId': detailTextId,
+        'evidenceAr': evidenceAr,
+        'evidenceEn': evidenceEn,
+        'evidenceFa': evidenceFa,
+        'evidenceUr': evidenceUr,
+        'evidenceId': evidenceId,
+      };
+
+  factory MadhabView.fromMap(Map<String, dynamic> map) => MadhabView(
+        madhabId: map['madhabId'] ?? '',
+        ruling: map['ruling'] ?? '',
+        detailTextAr: map['detailTextAr'] ?? '',
+        detailTextEn: map['detailTextEn'] ?? '',
+        detailTextFa: map['detailTextFa'] ?? '',
+        detailTextUr: map['detailTextUr'] ?? '',
+        detailTextId: map['detailTextId'] ?? '',
+        evidenceAr: map['evidenceAr'] ?? '-',
+        evidenceEn: map['evidenceEn'] ?? '-',
+        evidenceFa: map['evidenceFa'] ?? '-',
+        evidenceUr: map['evidenceUr'] ?? '-',
+        evidenceId: map['evidenceId'] ?? '-',
+      );
 }
 
 class IssueModel {
@@ -49,6 +80,7 @@ class IssueModel {
   final String simpleAnswerAr, simpleAnswerEn, simpleAnswerFa, simpleAnswerUr, simpleAnswerId;
   final List<MadhabView> madhabViews;
   final List<String> category;
+  final int views; // إضافة: يُستخدم في إحصائيات لوحة Streamlit، افتراضيه 0
 
   IssueModel({
     required this.id,
@@ -69,6 +101,7 @@ class IssueModel {
     required this.simpleAnswerId,
     required this.madhabViews,
     this.category = const [],
+    this.views = 0,
   });
 
   String getTitle(String lang) {
@@ -101,6 +134,35 @@ class IssueModel {
     }
   }
 
+  // ---- إضافة: تحويل من/إلى Firestore (لا تغيّر أي شيء في الحقول أعلاه) ----
+  Map<String, dynamic> toMap() => {
+        'titleAr': titleAr, 'titleEn': titleEn, 'titleFa': titleFa, 'titleUr': titleUr, 'titleId': titleId,
+        'shortAnswerAr': shortAnswerAr, 'shortAnswerEn': shortAnswerEn, 'shortAnswerFa': shortAnswerFa,
+        'shortAnswerUr': shortAnswerUr, 'shortAnswerId': shortAnswerId,
+        'simpleAnswerAr': simpleAnswerAr, 'simpleAnswerEn': simpleAnswerEn, 'simpleAnswerFa': simpleAnswerFa,
+        'simpleAnswerUr': simpleAnswerUr, 'simpleAnswerId': simpleAnswerId,
+        'category': category,
+        'views': views,
+        'madhabViews': madhabViews.map((v) => v.toMap()).toList(),
+      };
+
+  factory IssueModel.fromMap(String id, Map<String, dynamic> map) => IssueModel(
+        id: id,
+        titleAr: map['titleAr'] ?? '', titleEn: map['titleEn'] ?? '',
+        titleFa: map['titleFa'] ?? '', titleUr: map['titleUr'] ?? '', titleId: map['titleId'] ?? '',
+        shortAnswerAr: map['shortAnswerAr'] ?? '', shortAnswerEn: map['shortAnswerEn'] ?? '',
+        shortAnswerFa: map['shortAnswerFa'] ?? '', shortAnswerUr: map['shortAnswerUr'] ?? '',
+        shortAnswerId: map['shortAnswerId'] ?? '',
+        simpleAnswerAr: map['simpleAnswerAr'] ?? '', simpleAnswerEn: map['simpleAnswerEn'] ?? '',
+        simpleAnswerFa: map['simpleAnswerFa'] ?? '', simpleAnswerUr: map['simpleAnswerUr'] ?? '',
+        simpleAnswerId: map['simpleAnswerId'] ?? '',
+        category: List<String>.from(map['category'] ?? const []),
+        views: map['views'] ?? 0,
+        madhabViews: ((map['madhabViews'] as List?) ?? [])
+            .map((v) => MadhabView.fromMap(Map<String, dynamic>.from(v)))
+            .toList(),
+      );
+
   // مسألة 1: صلاة الجماعة
   static IssueModel getPrayerIssue() {
     return IssueModel(
@@ -120,6 +182,7 @@ class IssueModel {
       simpleAnswerFa: 'به اتفاق جمهور فقها واجب است.',
       simpleAnswerUr: 'جمہور فقہاء کے نزدیک واجب ہے۔',
       simpleAnswerId: 'Wajib menurut mayoritas ulama.',
+      category: const ['prayer'],
       madhabViews: [
         MadhabView(madhabId: 'maliki', ruling: 'فرض كفاية', detailTextAr: 'على أهل الحي. في حق الفرد سنة مؤكدة.', detailTextEn: 'Collective duty upon the neighborhood.', detailTextFa: 'بر اهل محله فرض کفایه است.', detailTextUr: 'محلہ والوں پر فرض کفایہ ہے۔', detailTextId: 'Fardu kifayah bagi penduduk lingkungan.', evidenceAr: 'الموطأ', evidenceEn: 'Al-Muwatta', evidenceFa: 'الموطأ', evidenceUr: 'الموطأ', evidenceId: 'Al-Muwatta'),
         MadhabView(madhabId: 'shafii', ruling: 'سنة مؤكدة', detailTextAr: 'فرض كفاية على المجتمع، وسنة للفرد.', detailTextEn: 'Collective duty for the community.', detailTextFa: 'فرض کفایه برای جامعه، و سنت برای فرد.', detailTextUr: 'معاشرے پر فرض کفایہ، اور فرد کے لیے سنت۔', detailTextId: 'Fardu kifayah bagi masyarakat, dan sunnah bagi individu.', evidenceAr: 'الأم', evidenceEn: 'Al-Umm', evidenceFa: 'الأم', evidenceUr: 'الأم', evidenceId: 'Al-Umm'),
@@ -136,5 +199,11 @@ class IssueModel {
 
   static List<IssueModel> getMockIssues() {
     return [getPrayerIssue()];
+  }
+
+  // إضافة: دالة مساعدة يستدعيها home_screen.dart بأمان بغض النظر عن عدد المسائل المتوفرة
+  static IssueModel getMockIssue([int index = 0]) {
+    final all = getMockIssues();
+    return all[index % all.length];
   }
 }
