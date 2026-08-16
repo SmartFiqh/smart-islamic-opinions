@@ -9,19 +9,4 @@ class LanguageProvider extends ChangeNotifier {
     _currentLocale = Locale(languageCode);
     notifyListeners();
   }
-
-  String getCurrentLanguageName() {
-    switch (_currentLocale.languageCode) {
-      case 'en':
-        return 'English';
-      case 'fa':
-        return 'فارسی';
-      case 'ur':
-        return 'اُردُو';
-      case 'id':
-        return 'Bahasa Indonesia';
-      default:
-        return 'العربية';
-    }
-  }
 }
