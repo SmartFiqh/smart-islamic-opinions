@@ -1,7 +1,4 @@
-# التطبيق الكامل المعدل
-
-```python
-# app_merged.py
+# app.py
 # -*- coding: utf-8 -*-
 """
 التطبيق المدمج - يجمع أفضل ميزات كلا البرنامجين
@@ -1263,7 +1260,7 @@ def main():
         border-bottom: 2px solid #d4dcd4;
     }}
     </style>
-    """.replace("__DIRECTION__", direction).replace("__ALIGN__", align), unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
     # ===== شريط اللغات =====
     cols = st.columns([1] + [1] * len(LANGS))
@@ -1544,4 +1541,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
