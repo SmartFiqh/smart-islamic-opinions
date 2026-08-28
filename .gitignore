@@ -4,26 +4,43 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
 
 # Environment
 .env
 *.env
 *.env.local
+venv/
+env/
+.venv/
 
 # Database
 *.db
 *.sqlite
 *.sqlite3
+database/*.db
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+.DS_Store
 
 # Streamlit
 .streamlit/
+.streamlitsecrets
+
+# Logs
+*.log
+logs/
 
 # OS
-.DS_Store
 Thumbs.db
+.DS_Store
