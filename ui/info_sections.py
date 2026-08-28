@@ -70,12 +70,13 @@ def render_info_sections(T):
                         madhab = text_for(MADHHAB_NAMES.get(madhab_data, {}), lang) if madhab_data else ""
                     is_diverse = c.get("diverse", False)
                     diverse_mark = " 🌐" if is_diverse else ""
+                    muslim_percent = c.get("muslim_percent", "")
                     
                     st.markdown(f"""
                     <div class="country-box">
                         <strong>{c['flag']} {name}</strong><br>
                         <span style="color:#d4a854;">{T['official_madhab']}: {madhab}{diverse_mark}</span><br>
-                        <span style="font-size:0.8rem; color:#6a7f78;">👥 {T['population']}: {c.get('population', '')}</span>
+                        <span style="font-size:0.8rem; color:#6a7f78;">👥 {T['population']}: {c.get('population', '')} ({muslim_percent} مسلمين)</span>
                     </div>
                     """, unsafe_allow_html=True)
         else:
@@ -109,10 +110,12 @@ def render_info_sections(T):
             for source in sources:
                 name = text_for(source["name"], lang)
                 desc = text_for(source["description"], lang)
+                schools = source.get("schools", "")
                 st.markdown(f"""
                 <div class="info-box">
                     <h4>{name}</h4>
                     <p>{desc}</p>
+                    {f'<p style="color:#6a7f78; font-size:0.85rem;">📌 المذاهب المعتمدة: {schools}</p>' if schools else ''}
                 </div>
                 """, unsafe_allow_html=True)
         else:
@@ -144,6 +147,7 @@ def render_info_sections(T):
                 rule_name = text_for(rule["name"], lang)
                 rule_def = text_for(rule["definition"], lang)
                 rule_ex = text_for(rule["example"], lang)
+                schools = rule.get("schools", "")
                 
                 if i > 0:
                     st.markdown("---")
@@ -153,6 +157,7 @@ def render_info_sections(T):
                 <div class="info-box">
                     <p><strong>{T['rules_definition']}:</strong> {rule_def}</p>
                     <p><strong>{T['rules_example']}:</strong> {rule_ex}</p>
+                    {f'<p style="color:#6a7f78; font-size:0.85rem;">📌 المذاهب المعتمدة: {schools}</p>' if schools else ''}
                 </div>
                 """, unsafe_allow_html=True)
         else:
