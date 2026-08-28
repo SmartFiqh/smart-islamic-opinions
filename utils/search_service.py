@@ -1,6 +1,7 @@
 # utils/search_service.py
 """خدمة البحث"""
 
+import re
 from typing import List, Dict
 from dataclasses import dataclass
 from utils.text_utils import normalize_arabic
@@ -44,7 +45,7 @@ class SearchService:
             
             norm_pool = normalize_arabic(pool)
             
-            # فحص التطابق
+            # فحص التطابق الكامل
             if norm_q in norm_pool:
                 results.append(issue)
             else:
@@ -64,12 +65,15 @@ class SearchService:
                 for m in madhabs:
                     data = per_madhab.get(m)
                     if data:
-                        cards.append({
-                            "label": MADHHAB_NAMES[m][lang],
-                            "answer": data.get(level, data.get("full", "")),
-                            "note": T["note_madhab"].format(MADHHAB_NAMES[m][lang]),
-                        })
+                        answer = data.get(level, data.get("full", ""))
+                        if answer:
+                            cards.append({
+                                "label": MADHHAB_NAMES[m][lang],
+                                "answer": answer,
+                                "note": T["note_madhab"].format(MADHHAB_NAMES[m][lang]),
+                            })
             
+            # إذا لم توجد إجابات للمذاهب المختارة، استخدم الإجابة العامة
             if not cards:
                 cards.append({
                     "label": TOPICS[issue["topic"]][lang],
