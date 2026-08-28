@@ -6,7 +6,12 @@ from utils.constants import LANGS, LANG_FLAGS
 
 def render_language_bar():
     """عرض شريط اللغات"""
-    lang = st.session_state.get("lang", "ar")
+    
+    # تأكد من وجود lang في session_state
+    if "lang" not in st.session_state:
+        st.session_state.lang = "ar"
+    
+    lang = st.session_state.lang
     
     cols = st.columns([1] + [1] * len(LANGS))
     
@@ -15,6 +20,7 @@ def render_language_bar():
     
     for i, (name, code) in enumerate(LANGS.items()):
         with cols[i + 1]:
+            # استخدام on_click بدلاً من rerun المباشر
             if st.button(
                 f"{LANG_FLAGS.get(code, '')} {name}",
                 key=f"lang_{code}",
