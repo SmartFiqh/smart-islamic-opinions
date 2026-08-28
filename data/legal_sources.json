@@ -1,74 +1,146 @@
 [
     {
-        "name": {
-            "ar": "القرآن الكريم",
-            "en": "The Qur'an",
-            "fr": "Le Coran",
-            "fa": "قرآن کریم",
-            "ms": "Al-Quran",
-            "ur": "قرآن کریم"
-        },
+        "name": {"ar": "القرآن الكريم", "en": "The Qur'an", "fr": "Le Coran", "fa": "قرآن کریم", "ms": "Al-Quran", "ur": "قرآن کریم"},
         "description": {
-            "ar": "المصدر الأعلى والأول للتشريع الإسلامي، وهو كلام الله المنزل على نبيه محمد ﷺ.",
-            "en": "The primary and highest source of Islamic law, the word of God revealed to Prophet Muhammad ﷺ.",
-            "fr": "La première et la plus haute source du droit islamique, la parole de Dieu révélée au Prophète Muhammad ﷺ.",
-            "fa": "منبع برتر و اولیه شریعت اسلامی، کلام خداوند نازل شده بر پیامبر محمد ﷺ.",
-            "ms": "Sumber tertinggi dan utama undang-undang Islam, firman Allah yang diturunkan kepada Nabi Muhammad ﷺ.",
-            "ur": "شریعت اسلامی کا اعلیٰ ترین اور اولیٰ ترین ماخذ، اللہ کا کلام جو نبی محمد ﷺ پر نازل ہوا۔"
-        }
+            "ar": "المصدر الأعلى والأول للتشريع الإسلامي، وهو كلام الله المنزل على نبيه محمد ﷺ. متفق عليه عند جميع المذاهب.",
+            "en": "The primary and highest source of Islamic law, the word of God revealed to Prophet Muhammad ﷺ. Agreed upon by all schools.",
+            "fr": "La première et la plus haute source du droit islamique, la parole de Dieu révélée au Prophète Muhammad ﷺ. Admis par toutes les écoles.",
+            "fa": "منبع برتر و اولیه شریعت اسلامی، کلام خداوند نازل شده بر پیامبر محمد ﷺ. مورد اتفاق همه مذاهب.",
+            "ms": "Sumber tertinggi dan utama undang-undang Islam, firman Allah yang diturunkan kepada Nabi Muhammad ﷺ. Dipersetujui oleh semua mazhab.",
+            "ur": "شریعت اسلامی کا اعلیٰ ترین اور اولیٰ ترین ماخذ، اللہ کا کلام جو نبی محمد ﷺ پر نازل ہوا۔ تمام مذاہب کا متفقہ ماخذ۔"
+        },
+        "schools": "جميع المذاهب"
     },
     {
-        "name": {
-            "ar": "السنة النبوية",
-            "en": "Prophetic Sunnah",
-            "fr": "La Sunna prophétique",
-            "fa": "سنت نبوی",
-            "ms": "Sunnah Nabi",
-            "ur": "سنت نبوی"
-        },
+        "name": {"ar": "السنة النبوية", "en": "Prophetic Sunnah", "fr": "La Sunna prophétique", "fa": "سنت نبوی", "ms": "Sunnah Nabi", "ur": "سنت نبوی"},
         "description": {
-            "ar": "أقوال النبي ﷺ وأفعاله وتقريراته، وهي المصدر الثاني بعد القرآن.",
-            "en": "The sayings, actions, and approvals of the Prophet ﷺ, the second source after the Qur'an.",
-            "fr": "Les paroles, actes et approbations du Prophète ﷺ, la deuxième source après le Coran.",
-            "fa": "گفتار، کردار و تقریرات پیامبر ﷺ، منبع دوم پس از قرآن.",
-            "ms": "Perkataan, perbuatan dan persetujuan Nabi ﷺ, sumber kedua selepas al-Quran.",
-            "ur": "نبی ﷺ کے اقوال، افعال اور تقریرات، قرآن کے بعد دوسرا ماخذ۔"
-        }
+            "ar": "أقوال النبي ﷺ وأفعاله وتقريراته، وهي المصدر الثاني بعد القرآن. متفق عليها عند جميع المذاهب.",
+            "en": "The sayings, actions, and approvals of the Prophet ﷺ, the second source after the Qur'an. Agreed upon by all schools.",
+            "fr": "Les paroles, actes et approbations du Prophète ﷺ, la deuxième source après le Coran. Admise par toutes les écoles.",
+            "fa": "گفتار، کردار و تقریرات پیامبر ﷺ، منبع دوم پس از قرآن. مورد اتفاق همه مذاهب.",
+            "ms": "Perkataan, perbuatan dan persetujuan Nabi ﷺ, sumber kedua selepas al-Quran. Dipersetujui oleh semua mazhab.",
+            "ur": "نبی ﷺ کے اقوال، افعال اور تقریرات، قرآن کے بعد دوسرا ماخذ۔ تمام مذاہب کا متفقہ ماخذ۔"
+        },
+        "schools": "جميع المذاهب"
     },
     {
-        "name": {
-            "ar": "الإجماع",
-            "en": "Ijma' (Consensus)",
-            "fr": "Ijma' (Consensus)",
-            "fa": "اجماع",
-            "ms": "Ijma'",
-            "ur": "اجماع"
-        },
+        "name": {"ar": "الإجماع", "en": "Ijma' (Consensus)", "fr": "Ijma' (Consensus)", "fa": "اجماع", "ms": "Ijma'", "ur": "اجماع"},
         "description": {
-            "ar": "اتفاق المجتهدين من أمة محمد ﷺ في عصر من العصور على حكم شرعي بعد وفاة النبي ﷺ.",
-            "en": "The agreement of qualified jurists from the Muslim community in any era on a legal ruling after the Prophet's death.",
-            "fr": "L'accord des juristes qualifiés de la communauté musulmane à une époque donnée sur une règle juridique après la mort du Prophète.",
-            "fa": "اتفاق مجتهدان امت محمد ﷺ در عصری بر حکم شرعی پس از وفات پیامبر.",
-            "ms": "Persetujuan ulama mujtahid daripada umat Islam dalam sesuatu zaman terhadap hukum syarak selepas kewafatan Nabi.",
-            "ur": "امت محمد ﷺ کے مجتہدین کا کسی دور میں کسی شرعی حکم پر اتفاق، نبی کی وفات کے بعد۔"
-        }
+            "ar": "اتفاق المجتهدين من أمة محمد ﷺ في عصر من العصور على حكم شرعي. معتمد عند المذاهب السنية والإباضي، ومقيد عند الجعفرية والزيدية.",
+            "en": "The agreement of qualified jurists from the Muslim community in any era on a legal ruling. Accepted by Sunni and Ibadi schools, restricted by Ja'fari and Zaidi.",
+            "fr": "L'accord des juristes qualifiés de la communauté musulmane à une époque donnée sur une règle juridique. Accepté par les écoles sunnites et ibadite, restreint par les écoles jaafarite et zaydite.",
+            "fa": "اتفاق مجتهدان امت محمد ﷺ در عصری بر حکم شرعی. مورد پذیرش مذاهب سنی و اباضی، و مقید در جعفری و زیدی.",
+            "ms": "Persetujuan ulama mujtahid daripada umat Islam dalam sesuatu zaman terhadap hukum syarak. Diterima oleh mazhab Sunni dan Ibadi, terhad dalam Jaafari dan Zaidi.",
+            "ur": "امت محمد ﷺ کے مجتہدین کا کسی دور میں کسی شرعی حکم پر اتفاق۔ سنی اور اباضی مذاہب میں معتبر، جعفری اور زیدی میں مقید۔"
+        },
+        "schools": "جميع المذاهب (مع اختلاف في التفاصيل)"
     },
     {
-        "name": {
-            "ar": "القياس",
-            "en": "Qiyas (Analogy)",
-            "fr": "Qiyas (Analogie)",
-            "fa": "قیاس",
-            "ms": "Qiyas",
-            "ur": "قیاس"
-        },
+        "name": {"ar": "القياس", "en": "Qiyas (Analogy)", "fr": "Qiyas (Analogie)", "fa": "قیاس", "ms": "Qiyas", "ur": "قیاس"},
         "description": {
-            "ar": "إلحاق مسألة جديدة ليس لها نص بمسألة منصوص عليها لاشتراكهما في العلة الموجبة للحكم.",
-            "en": "Applying an established ruling to a new case without a text due to a shared effective cause.",
-            "fr": "L'application d'une règle connue à un cas nouveau sans texte en raison d'une cause commune.",
-            "fa": "الحاق مسئله جدید بدون نص به مسئله منصوص به دلیل اشتراک در علت.",
-            "ms": "Menghubungkan kes baru tanpa nas kepada kes yang telah ada nas kerana persamaan sebab.",
-            "ur": "کسی نئے مسئلہ کو جس کا کوئی نص نہیں، کسی منصوص مسئلہ سے ملانا بوجہ مشترک علت۔"
-        }
+            "ar": "إلحاق مسألة جديدة ليس لها نص بمسألة منصوص عليها لاشتراكهما في العلة. معتمد عند المذاهب السنية، ومقبول عند الزيدية، ومرفوض عند الظاهرية والجعفرية في بعض التطبيقات.",
+            "en": "Applying an established ruling to a new case without a text due to a shared effective cause. Accepted by Sunni schools, accepted by Zaidi, rejected by Zahiri and partially by Ja'fari.",
+            "fr": "L'application d'une règle connue à un cas nouveau sans texte en raison d'une cause commune. Accepté par les écoles sunnites, accepté par les zaydites, rejeté par les zahirites et partiellement par les jaafarites.",
+            "fa": "الحاق مسئله جدید بدون نص به مسئله منصوص به دلیل اشتراک در علت. مورد پذیرش مذاهب سنی، پذیرفته شده در زیدی، رد شده در ظاهری و تا حدی در جعفری.",
+            "ms": "Menghubungkan kes baru tanpa nas kepada kes yang telah ada nas kerana persamaan sebab. Diterima oleh mazhab Sunni, diterima oleh Zaidi, ditolak oleh Zahiri dan sebahagian oleh Jaafari.",
+            "ur": "کسی نئے مسئلہ کو جس کا کوئی نص نہیں، کسی منصوص مسئلہ سے ملانا بوجہ مشترک علت۔ سنی مذاہب میں معتبر، زیدی میں مقبول، ظاہری اور جعفری میں محدود۔"
+        },
+        "schools": "مالكي، شافعي، حنفي، حنبلي، زيدي (مع اختلاف في الشروط)"
+    },
+    {
+        "name": {"ar": "الاستحسان", "en": "Istihsan (Juristic Preference)", "fr": "Istihsan (Préférence juridique)", "fa": "استحسان", "ms": "Istihsan", "ur": "استحسان"},
+        "description": {
+            "ar": "العدول عن مقتضى القياس الظاهر إلى حكم آخر يقتضيه دليل أقوى. معتمد عند الحنفية والمالكية، ومرفوض عند الشافعية والظاهرية.",
+            "en": "Departing from an apparent analogy toward a ruling supported by stronger evidence. Accepted by Hanafi and Maliki, rejected by Shafi'i and Zahiri.",
+            "fr": "S'écarter d'une analogie apparente vers un jugement fondé sur une preuve plus forte. Accepté par les hanafites et les malikites, rejeté par les chaféites et les zahirites.",
+            "fa": "عدول از قیاس ظاهر به حکمی که دلیل قوی‌تری دارد. مورد پذیرش حنفی و مالکی، رد شده در شافعی و ظاهری.",
+            "ms": "Beralih daripada qiyas zahir kepada hukum yang mempunyai dalil lebih kuat. Diterima oleh Hanafi dan Maliki, ditolak oleh Syafie dan Zahiri.",
+            "ur": "ظاہری قیاس سے ہٹ کر ایسے حکم کی طرف رجوع جس کی دلیل مضبوط ہو۔ حنفی اور مالکی میں معتبر، شافعی اور ظاہری میں رد۔"
+        },
+        "schools": "حنفي، مالكي"
+    },
+    {
+        "name": {"ar": "الاستصلاح / المصالح المرسلة", "en": "Istislah / Masalih Mursalah", "fr": "Istislah / Masalih Mursalah", "fa": "استصلاح / مصالح مرسله", "ms": "Istislah / Maslahah Mursalah", "ur": "استصلاح / مصالح مرسلہ"},
+        "description": {
+            "ar": "اعتبار المصلحة التي لم يرد نص خاص بها ولم تُلغَ، إذا كانت تحقق منفعة عامة. معتمد عند المالكية والحنابلة، ومرفوض عند الشافعية والظاهرية.",
+            "en": "Considering public interests not explicitly addressed in primary sources. Accepted by Maliki and Hanbali, rejected by Shafi'i and Zahiri.",
+            "fr": "Considération des intérêts publics non explicitement abordés dans les sources primaires. Accepté par les malikites et les hanbalites, rejeté par les chaféites et les zahirites.",
+            "fa": "اعتبار مصلحتی که نص خاصی برای آن نیامده است. مورد پذیرش مالکی و حنبلی، رد شده در شافعی و ظاهری.",
+            "ms": "Mempertimbangkan maslahah yang tidak disebut secara khusus. Diterima oleh Maliki dan Hanbali, ditolak oleh Syafie dan Zahiri.",
+            "ur": "ان مفادات کا اعتبار جن کا کوئی خاص نص نہیں۔ مالکی اور حنبلی میں معتبر، شافعی اور ظاہری میں رد۔"
+        },
+        "schools": "مالكي، حنبلي"
+    },
+    {
+        "name": {"ar": "سد الذرائع", "en": "Sadd al-Dhara'i' (Blocking the Means)", "fr": "Sadd al-Dhara'i' (Bloquer les moyens)", "fa": "سد ذرائع", "ms": "Saddu al-Zara'i", "ur": "سد ذرائع"},
+        "description": {
+            "ar": "منع فعل جائز في أصله متى كان وسيلة غالبة إلى مفسدة محققة. معتمد عند المالكية والحنابلة، ومقبول عند الشافعية في بعض التطبيقات.",
+            "en": "Blocking an act permissible in itself when it is a likely means to a real harm. Accepted by Maliki and Hanbali, partially accepted by Shafi'i.",
+            "fr": "Interdire un acte permis en soi lorsqu'il est un moyen probable vers un préjudice réel. Accepté par les malikites et les hanbalites, partiellement accepté par les chaféites.",
+            "fa": "منع کاری که در اصل جایز است اگر وسیله غالب به مفسده باشد. مورد پذیرش مالکی و حنبلی، تا حدی در شافعی.",
+            "ms": "Menghalang perbuatan yang asalnya harus jika menjadi jalan kepada kemudaratan. Diterima oleh Maliki dan Hanbali, sebahagian dalam Syafie.",
+            "ur": "اصلاً جائز کام کو روکنا اگر وہ کسی خرابی کا ذریعہ بن جائے۔ مالکی اور حنبلی میں معتبر، شافعی میں محدود۔"
+        },
+        "schools": "مالكي، حنبلي، شافعي (بشروط)"
+    },
+    {
+        "name": {"ar": "الاستصحاب", "en": "Istishab (Presumption of Continuity)", "fr": "Istishab (Présomption de continuité)", "fa": "استصحاب", "ms": "Istishab", "ur": "استصحاب"},
+        "description": {
+            "ar": "إبقاء الحكم الثابت في الماضي قائماً في الحال والمستقبل، ما لم يقم دليل على تغييره. معتمد عند جميع المذاهب، وخاصة عند الشافعية والجعفرية.",
+            "en": "Presuming that a previously established ruling remains in effect unless proven otherwise. Accepted by all schools, especially Shafi'i and Ja'fari.",
+            "fr": "Présumer qu'un jugement précédemment établi reste valable, sauf preuve contraire. Accepté par toutes les écoles, surtout par les chaféites et les jaafarites.",
+            "fa": "باقی نگه‌داشتن حکم ثابت شده در گذشته تا زمانی که دلیل بر تغییر آن نرسد. مورد پذیرش همه مذاهب، به ویژه شافعی و جعفری.",
+            "ms": "Mengekalkan hukum yang telah sabit pada masa lalu sehingga ada dalil yang mengubahnya. Diterima oleh semua mazhab, terutamanya Syafie dan Jaafari.",
+            "ur": "ماضی میں ثابت شدہ حکم کو برقرار رکھنا جب تک اس کے خلاف دلیل نہ آئے۔ تمام مذاہب میں معتبر، خاص طور پر شافعی اور جعفری میں۔"
+        },
+        "schools": "جميع المذاهب"
+    },
+    {
+        "name": {"ar": "العقل", "en": "Reason (Aql)", "fr": "Raison (Aql)", "fa": "عقل", "ms": "Akal", "ur": "عقل"},
+        "description": {
+            "ar": "استخدام العقل والمنطق في فهم النصوص واستنباط الأحكام. معتمد عند الجعفرية والزيدية والمعتزلة، ومقبول عند المذاهب السنية في حدود معينة.",
+            "en": "Using reason and logic to understand texts and derive rulings. Emphasized by Ja'fari, Zaidi, and Mu'tazila, accepted by Sunni schools within certain limits.",
+            "fr": "Utiliser la raison et la logique pour comprendre les textes et dériver les règles. Souligné par les jaafarites, les zaydites et les mu'tazilites, accepté par les écoles sunnites dans certaines limites.",
+            "fa": "استفاده از عقل و منطق در فهم نصوص و استنباط احکام. مورد تأکید در جعفری، زیدی و معتزله، و محدود در مذاهب سنی.",
+            "ms": "Menggunakan akal dan logik untuk memahami teks dan mengeluarkan hukum. Ditekankan oleh Jaafari, Zaidi dan Mu'tazilah, diterima oleh mazhab Sunni dalam had tertentu.",
+            "ur": "نصوص کو سمجھنے اور احکام اخذ کرنے میں عقل و منطق کا استعمال۔ جعفری، زیدی اور معتزلہ میں مؤکد، سنی مذاہب میں محدود۔"
+        },
+        "schools": "جعفري، زيدي (بشكل مؤكد)، المذاهب السنية (بشكل محدود)"
+    },
+    {
+        "name": {"ar": "الإجماع الصامت", "en": "Silent Consensus", "fr": "Consensus silencieux", "fa": "اجماع ساکت", "ms": "Ijma' Sukuti", "ur": "اجماع صامت"},
+        "description": {
+            "ar": "سكوت المجتهدين عن إنكار قول أو فعل صدر في عصرهم، مع علمهم به. معتمد عند الحنفية والحنابلة، ومرفوض عند الشافعية المحدثين.",
+            "en": "The silence of qualified jurists regarding a statement or action in their time, despite knowing it. Accepted by Hanafi and Hanbali, rejected by later Shafi'i scholars.",
+            "fr": "Le silence des juristes qualifiés concernant une déclaration ou une action de leur temps, bien qu'ils en aient connaissance. Accepté par les hanafites et les hanbalites, rejeté par les chaféites modernes.",
+            "fa": "سکوت مجتهدان نسبت به قول یا فعلی که در زمان آن‌ها صادر شده است. مورد پذیرش حنفی و حنبلی، رد شده در شافعی متأخر.",
+            "ms": "Diamnya ulama mujtahid terhadap sesuatu perkataan atau perbuatan pada zaman mereka. Diterima oleh Hanafi dan Hanbali, ditolak oleh Syafie mutakhir.",
+            "ur": "مجتہدین کا کسی قول یا فعل کے بارے میں خاموشی اختیار کرنا۔ حنفی اور حنبلی میں معتبر، متأخر شافعی میں رد۔"
+        },
+        "schools": "حنفي، حنبلي"
+    },
+    {
+        "name": {"ar": "الظاهر", "en": "Literal Meaning (Zahir)", "fr": "Sens littéral (Zahir)", "fa": "ظاهر", "ms": "Zahir", "ur": "ظاہر"},
+        "description": {
+            "ar": "الأخذ بالمعنى الظاهر للنصوص دون تأويل أو قياس. هو الأساس في المذهب الظاهري، ومقبول في المذاهب الأخرى في حدود.",
+            "en": "Adopting the apparent meaning of texts without interpretation or analogy. It is the foundation of the Zahiri school, and accepted by other schools to some extent.",
+            "fr": "Adopter le sens apparent des textes sans interprétation ni analogie. C'est le fondement de l'école zahirite, et accepté par les autres écoles dans une certaine mesure.",
+            "fa": "پذیرش معنای ظاهر نصوص بدون تأویل یا قیاس. اساس مذهب ظاهری است و در مذاهب دیگر نیز تا حدی پذیرفته شده است.",
+            "ms": "Mengambil makna zahir nas tanpa takwil atau qiyas. Ia adalah asas mazhab Zahiri, dan diterima oleh mazhab lain pada tahap tertentu.",
+            "ur": "نصوص کے ظاہری معنی کو بغیر تأویل یا قیاس کے قبول کرنا۔ مذہب ظاہری کی بنیاد، دیگر مذاہب میں بھی محدود طور پر قبول۔"
+        },
+        "schools": "ظاهري، وجميع المذاهب (بشكل محدود)"
+    },
+    {
+        "name": {"ar": "القياس عند الجعفرية", "en": "Qiyas in Ja'fari School", "fr": "Qiyas dans l'école jaafarite", "fa": "قیاس در مذهب جعفری", "ms": "Qiyas dalam mazhab Jaafari", "ur": "جعفریہ میں قیاس"},
+        "description": {
+            "ar": "القياس المقبول عند الجعفرية هو قياس المنطوق الذي لا يخالف النص، أما القياس الذي يخالف النص أو يتجاوزه فهو مرفوض.",
+            "en": "The accepted Qiyas in Ja'fari school is logical analogy that does not contradict the text; analogy that contradicts the text is rejected.",
+            "fr": "Le Qiyas accepté dans l'école jaafarite est l'analogie logique qui ne contredit pas le texte ; l'analogie qui contredit le texte est rejetée.",
+            "fa": "قیاس مقبول در مذهب جعفری، قیاس منطقی است که با نص مخالف نباشد؛ قیاسی که با نص مخالف است رد می‌شود.",
+            "ms": "Qiyas yang diterima dalam mazhab Jaafari adalah qiyas mantuq yang tidak bercanggah dengan nas; qiyas yang bercanggah dengan nas ditolak.",
+            "ur": "جعفریہ میں مقبول قیاس وہ ہے جو نص کی مخالفت نہ کرے؛ جو نص کی مخالفت کرے وہ مردود ہے۔"
+        },
+        "schools": "جعفري (مقيد)"
     }
 ]
