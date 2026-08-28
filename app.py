@@ -37,14 +37,20 @@ st.set_page_config(
 def main():
     """التطبيق الرئيسي."""
     
-    # تهيئة الخدمات
-    db = DatabaseManager()
-    ai = AIService()
-    search = SearchService(db, ai)
-    ref_manager = ReferenceManager(db, ai)
-    
-    # عرض الواجهة
-    render_app(db, ai, search, ref_manager)
+    try:
+        # تهيئة الخدمات
+        db = DatabaseManager()
+        ai = AIService()
+        search = SearchService(db, ai)
+        ref_manager = ReferenceManager(db, ai)
+        
+        # عرض الواجهة
+        render_app(db, ai, search, ref_manager)
+        
+    except Exception as e:
+        st.error(f"❌ حدث خطأ في التطبيق: {str(e)}")
+        st.info("🔧 تأكد من وجود مجلد 'database' وملفات البيانات في مجلد 'data'")
+        st.stop()
 
 
 if __name__ == "__main__":
