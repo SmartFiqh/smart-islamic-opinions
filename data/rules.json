@@ -1,1 +1,288 @@
-
+[
+    {
+        "name": {
+            "ar": "اليقين لا يزول بالشك",
+            "en": "Certainty cannot be overridden by doubt",
+            "fr": "La certitude ne peut être remplacée par le doute",
+            "fa": "یقین به شک زایل نمی‌شود",
+            "ms": "Keyakinan tidak boleh digantikan dengan keraguan",
+            "ur": "یقین شک سے زائل نہیں ہوتا"
+        },
+        "definition": {
+            "ar": "إذا ثبت أمر بيقين فلا يزول إلا بيقين مثله، ولا يؤثر فيه مجرد الشك.",
+            "en": "Certainty cannot be overridden by doubt.",
+            "fr": "La certitude ne peut être remplacée par le doute.",
+            "fa": "هر چیزی که با یقین ثابت شده است با شک از بین نمی‌رود.",
+            "ms": "Keyakinan tidak boleh digantikan dengan keraguan.",
+            "ur": "جو چیز یقین سے ثابت ہو جائے وہ شک سے زائل نہیں ہوتی۔"
+        },
+        "example": {
+            "ar": "من تيقن الطهارة وشك في الحدث، يبقى على الطهارة.",
+            "en": "If someone is certain of purity and doubts impurity, they remain in a state of purity.",
+            "fr": "Si quelqu'un est certain de la pureté et doute de l'impureté, il reste en état de pureté.",
+            "fa": "کسی که یقین به طهارت دارد و به حدث شک می‌کند، بر طهارت باقی می‌ماند.",
+            "ms": "Jika seseorang yakin suci dan ragu najis, dia kekal dalam keadaan suci.",
+            "ur": "جو شخص طہارت پر یقین رکھتا ہے اور حدث پر شک کرتا ہے، وہ طہارت پر باقی رہتا ہے۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "المشقة تجلب التيسير",
+            "en": "Hardship brings ease",
+            "fr": "La difficulté apporte la facilité",
+            "fa": "مشقت باعث آسانی می‌شود",
+            "ms": "Kesukaran membawa kemudahan",
+            "ur": "مشقت آسانی لاتی ہے"
+        },
+        "definition": {
+            "ar": "عند وجود مشقة معتبرة في تطبيق الحكم الشرعي، يُفتح باب الرخصة والتخفيف.",
+            "en": "Hardship brings ease in Islamic jurisprudence.",
+            "fr": "La difficulté apporte la facilité dans la jurisprudence islamique.",
+            "fa": "هنگام وجود مشقت معتبر در اجرای حکم شرعی، باب رخصت و تخفیف گشوده می‌شود.",
+            "ms": "Apabila terdapat kesukaran yang diiktiraf dalam melaksanakan hukum syarak, keringanan dan kemudahan diberikan.",
+            "ur": "شرعی حکم کے اطلاق میں معتبر مشقت کی صورت میں رخصت اور تخفیف کا دروازہ کھل جاتا ہے۔"
+        },
+        "example": {
+            "ar": "قصر الصلاة في السفر أو الإفطار في المرض.",
+            "en": "Shortening prayers during travel or breaking fast during illness.",
+            "fr": "Raccourcir les prières pendant le voyage ou rompre le jeûne en cas de maladie.",
+            "fa": "قصر نماز در سفر یا افطار در بیماری.",
+            "ms": "Memendekkan solat semasa musafir atau berbuka puasa ketika sakit.",
+            "ur": "سفر میں نماز قصر کرنا یا بیماری میں روزہ افطار کرنا۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "الضرر يزال",
+            "en": "Harm must be removed",
+            "fr": "Le préjudice doit être écarté",
+            "fa": "ضرر باید برطرف شود",
+            "ms": "Kemudaratan mesti dihilangkan",
+            "ur": "نقصان کو دور کیا جانا چاہیے"
+        },
+        "definition": {
+            "ar": "كل ما فيه ضرر على الفرد أو الجماعة يجب رفعه أو منعه.",
+            "en": "Harm must be removed or prevented.",
+            "fr": "Le préjudice doit être écarté ou empêché.",
+            "fa": "هر چیزی که برای فرد یا جامعه ضرر دارد باید برطرف یا ممنوع شود.",
+            "ms": "Segala yang membawa kemudaratan kepada individu atau masyarakat mesti dihilangkan atau dicegah.",
+            "ur": "ہر وہ چیز جو فرد یا جماعت کو نقصان پہنچاتی ہے اسے دور یا روکا جانا چاہیے۔"
+        },
+        "example": {
+            "ar": "منع الغش في البيع أو إزالة الأذى عن الطريق.",
+            "en": "Preventing fraud in sales or removing harm from the road.",
+            "fr": "Prévenir la fraude dans les ventes ou éliminer les nuisances de la route.",
+            "fa": "منع تقلب در خرید و فروش یا برداشتن مزاحمت از راه.",
+            "ms": "Mencegah penipuan dalam jualan atau membuang bahaya dari jalan.",
+            "ur": "بیع میں دھوکہ دہی کو روکنا یا راستے سے نقصان کو ہٹانا۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "العادة محكمة",
+            "en": "Custom is a valid consideration",
+            "fr": "La coutume est considérée",
+            "fa": "عرف و عادت معتبر است",
+            "ms": "Adat dipertimbangkan",
+            "ur": "عادت کو معتبر سمجھا جاتا ہے"
+        },
+        "definition": {
+            "ar": "العرف والعادة المعتبرة شرعًا تُعتبر في الأحكام ما لم تخالف نصًا شرعيًا.",
+            "en": "Custom is a valid consideration in Islamic law.",
+            "fr": "La coutume est considérée en droit islamique.",
+            "fa": "عرف و عادت معتبر شرعی در احکام لحاظ می‌شود.",
+            "ms": "Adat dan uruf yang diiktiraf secara syarak dipertimbangkan dalam hukum.",
+            "ur": "شرعی طور پر معتبر عرف و عادت کو احکام میں لحاظ رکھا جاتا ہے بشرطیکہ کسی شرعی نص کی مخالفت نہ ہو۔"
+        },
+        "example": {
+            "ar": "أعراف الزواج أو البيع.",
+            "en": "Customs regarding marriage or sales.",
+            "fr": "Les coutumes relatives au mariage ou aux ventes.",
+            "fa": "عرف‌های ازدواج یا خرید و فروش.",
+            "ms": "Adat mengenai perkahwinan atau jualan.",
+            "ur": "شادی یا بیع کے متعلق رسوم۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "الأمور بمقاصدها",
+            "en": "Actions are judged by intentions",
+            "fr": "Les actions sont jugées par leurs intentions",
+            "fa": "کارها با نیت‌ها ارزیابی می‌شوند",
+            "ms": "Tindakan dinilai dengan niat",
+            "ur": "اعمال کا دارومدار نیتوں پر ہے"
+        },
+        "definition": {
+            "ar": "الحكم على الأفعال يكون بحسب نية صاحبها ومقصده.",
+            "en": "Actions are judged by their intentions.",
+            "fr": "Les actions sont jugées selon leurs intentions.",
+            "fa": "حکم بر افعال بر اساس نیت و هدف صاحب آن است.",
+            "ms": "Tindakan dinilai berdasarkan niat dan tujuannya.",
+            "ur": "اعمال کا حکم ان کے ارادے اور مقصد کے مطابق ہوتا ہے۔"
+        },
+        "example": {
+            "ar": "التفريق بين الصدقة والهدية.",
+            "en": "The distinction between charity and gift.",
+            "fr": "La distinction entre l'aumône et le cadeau.",
+            "fa": "تفاوت بین صدقه و هدیه.",
+            "ms": "Perbezaan antara sedekah dan hadiah.",
+            "ur": "صدقہ اور ہدیہ میں فرق۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "الضرورات تبيح المحظورات",
+            "en": "Necessities permit the forbidden",
+            "fr": "Les nécessités permettent le prohibé",
+            "fa": "ضرورت‌ها حرام را مباح می‌کنند",
+            "ms": "Keperluan membenarkan yang haram",
+            "ur": "ضرورتیں ممنوعات کو جائز کرتی ہیں"
+        },
+        "definition": {
+            "ar": "عند الضرورة يجوز ارتكاب المحظور بقدر الحاجة فقط.",
+            "en": "Necessities permit the forbidden to the extent of need.",
+            "fr": "Les nécessités permettent le prohibé dans la mesure du besoin.",
+            "fa": "در صورت ضرورت، انجام کار حرام به اندازه نیاز مجاز است.",
+            "ms": "Dalam keadaan darurat, perkara yang haram dibenarkan sekadar keperluan.",
+            "ur": "ضرورت کی صورت میں ممنوع چیز کو ضرورت کے بقدر جائز کر دیا جاتا ہے۔"
+        },
+        "example": {
+            "ar": "أكل الميتة عند الخوف من الهلاك.",
+            "en": "Eating carrion when fearing death.",
+            "fr": "Manger de la charogne par crainte de mourir.",
+            "fa": "خوردن مردار در صورت ترس از مرگ.",
+            "ms": "Memakan bangkai apabila takut mati.",
+            "ur": "موت کے خوف سے مردار کھانا۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "الوسائل لها أحكام المقاصد",
+            "en": "The means take the ruling of their objectives",
+            "fr": "Les moyens prennent le jugement de leurs objectifs",
+            "fa": "وسایل حکم اهداف خود را دارند",
+            "ms": "Cara-cara mengambil hukum matlamatnya",
+            "ur": "ذرائع اپنے مقاصد کا حکم رکھتے ہیں"
+        },
+        "definition": {
+            "ar": "ما كان وسيلة لشيء يأخذ حكم ذلك الشيء.",
+            "en": "The means take the ruling of their objectives.",
+            "fr": "Les moyens prennent le jugement de leurs objectifs.",
+            "fa": "هر چیزی که وسیله چیزی باشد، حکم آن چیز را دارد.",
+            "ms": "Apa yang menjadi wasilah kepada sesuatu mengambil hukum sesuatu itu.",
+            "ur": "جو چیز کسی چیز کا ذریعہ ہوتی ہے وہ اس کا حکم رکھتی ہے۔"
+        },
+        "example": {
+            "ar": "الكتابة في العقود لحفظ الحقوق.",
+            "en": "Writing contracts to preserve rights.",
+            "fr": "Écrire des contrats pour préserver les droits.",
+            "fa": "نوشتن قراردادها برای حفظ حقوق.",
+            "ms": "Menulis kontrak untuk memelihara hak.",
+            "ur": "حقوق کے تحفظ کے لیے معاہدے تحریر کرنا۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "القياس",
+            "en": "Analogy (Qiyas)",
+            "fr": "Analogie (Qiyas)",
+            "fa": "قیاس",
+            "ms": "Qiyas",
+            "ur": "قیاس"
+        },
+        "definition": {
+            "ar": "إلحاق فرع بأصل في الحكم لعلة جامعة بينهما.",
+            "en": "Extending a ruling from an original case to a new case due to shared reasoning.",
+            "fr": "Extension d'une règle d'un cas original à un nouveau cas en raison d'un raisonnement partagé.",
+            "fa": "الحاق فرع به اصل در حکم به دلیل علت مشترک.",
+            "ms": "Memperluas hukum dari kes asal ke kes baru kerana persamaan sebab.",
+            "ur": "حکم میں فرع کو اصل سے ملانا بوجہ مشترک علت۔"
+        },
+        "example": {
+            "ar": "قياس المخدرات على الخمر في التحريم لعلة الإسكار.",
+            "en": "Analogizing drugs to alcohol in prohibition due to the reasoning of intoxication.",
+            "fr": "Analogie des drogues à l'alcool dans l'interdiction en raison de l'intoxication.",
+            "fa": "قیاس مواد مخدر بر خمر در تحریم به دلیل اسکار.",
+            "ms": "Menganalogikan dadah kepada arak dalam pengharaman kerana sebab memabukkan.",
+            "ur": "نشہ کی علت کی وجہ سے منشیات کو شراب پر قیاس کرنا۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "المصالح المرسلة",
+            "en": "Considered public interest",
+            "fr": "Intérêt public considéré",
+            "fa": "مصالح مرسله",
+            "ms": "Maslahah mursalah",
+            "ur": "مصالح مرسلہ"
+        },
+        "definition": {
+            "ar": "اعتبار المصلحة التي لم يرد نص خاص بها ولم تُلغَ، إذا كانت تحقق منفعة عامة.",
+            "en": "Considering public interests not explicitly addressed in primary sources.",
+            "fr": "Considération des intérêts publics non explicitement abordés dans les sources primaires.",
+            "fa": "اعتبار مصلحتی که نص خاصی برای آن نیامده و لغو نشده است، در صورت تحقق منفعت عمومی.",
+            "ms": "Mempertimbangkan maslahah yang tidak disebut secara khusus dalam nas dan tidak dibatalkan, jika ia membawa manfaat umum.",
+            "ur": "ان مفادات کا اعتبار جن کا کوئی خاص نص نہیں ہے اور نہ ہی انہیں منسوخ کیا گیا ہے، اگر وہ عام مفاد کو پورا کرتی ہیں۔"
+        },
+        "example": {
+            "ar": "توثيق العقود بالكتابة.",
+            "en": "Documenting contracts in writing.",
+            "fr": "Documenter les contrats par écrit.",
+            "fa": "مستند کردن قراردادها به نوشته.",
+            "ms": "Mendokumentasikan kontrak secara bertulis.",
+            "ur": "معاہدات کو تحریر میں دستاویز کرنا۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "الخاص يحكم العام",
+            "en": "The specific takes precedence over the general",
+            "fr": "Le spécifique prévaut sur le général",
+            "fa": "خاص بر عام مقدم است",
+            "ms": "Khusus mengatasi umum",
+            "ur": "خاص کو عام پر ترجیح ہے"
+        },
+        "definition": {
+            "ar": "إذا ورد نص عام ونص خاص، يُقدَّم الخاص في التطبيق.",
+            "en": "When general and specific texts conflict, the specific takes precedence.",
+            "fr": "Lorsque les textes généraux et spécifiques sont en conflit, le spécifique prévaut.",
+            "fa": "اگر نص عام و خاص با هم تعارض داشته باشند، خاص مقدم می‌شود.",
+            "ms": "Apabila teks umum dan khusus bercanggah, teks khusus didahulukan.",
+            "ur": "اگر عام اور خاص نص باہم متعارض ہوں تو خاص کو ترجیح دی جاتی ہے۔"
+        },
+        "example": {
+            "ar": "قوله تعالى: (وأحل الله البيع) عام، وقوله: (حرمت عليكم الميتة) خاص.",
+            "en": "The general verse: 'Allah has permitted trade' vs. 'Forbidden to you is carrion'.",
+            "fr": "Le verset général 'Allah a permis le commerce' vs 'Il vous est interdit la charogne'.",
+            "fa": "آیه عام 'خداوند خرید و فروش را حلال کرده' vs 'مردار بر شما حرام شده'.",
+            "ms": "Ayat umum 'Allah menghalalkan jual beli' vs 'Diharamkan kepada kamu bangkai'.",
+            "ur": "عام آیت 'اللہ نے بیع کو حلال کیا' vs 'تم پر مردار حرام ہے'۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "لا ضرر ولا ضرار",
+            "en": "No harm and no reciprocating harm",
+            "fr": "Pas de mal et pas de réciprocité de mal",
+            "fa": "نه ضرر و نه ضرر متقابل",
+            "ms": "Tidak boleh membahayakan dan tidak boleh membalas bahaya",
+            "ur": "نہ نقصان اور نہ نقصان کا بدلہ"
+        },
+        "definition": {
+            "ar": "قاعدة مأخوذة من حديث النبي ﷺ: (لا ضرر ولا ضرار)، وتعني أنه لا يجوز إيقاع الضرر بالنفس أو بالغير، ولا يجوز رد الضرر بضرر مثله.",
+            "en": "Based on the Prophetic hadith: 'No harm and no reciprocating harm.'",
+            "fr": "Basé sur le hadith prophétique: 'Pas de mal et pas de réciprocité de mal.'",
+            "fa": "بر اساس حدیث نبوی: 'نه ضرر و نه ضرر متقابل'.",
+            "ms": "Berdasarkan hadis Nabi: 'Tidak boleh membahayakan dan tidak boleh membalas bahaya'.",
+            "ur": "نبوی حدیث پر مبنی: 'نہ نقصان اور نہ نقصان کا بدلہ'۔"
+        },
+        "example": {
+            "ar": "منع البناء الذي يضر بالجار.",
+            "en": "Preventing construction that harms a neighbor.",
+            "fr": "Prévenir la construction qui nuit à un voisin.",
+            "fa": "جلوگیری از ساخت و سازی که به همسایه ضرر می‌زند.",
+            "ms": "Mencegah pembinaan yang merugikan jiran.",
+            "ur": "ایسی تعمیر کو روکنا جو پڑوسی کو نقصان پہنچائے۔"
+        }
+    }
+]
