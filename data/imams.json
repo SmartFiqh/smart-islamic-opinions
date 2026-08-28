@@ -2,11 +2,92 @@
     {
         "name": {
             "ar": "الإمام أبو حنيفة النعمان بن ثابت",
-            "en": "Imam Abu Hanifa al-Nu'man ibn Thabit"
+            "en": "Imam Abu Hanifa al-Nu'man ibn Thabit",
+            "fr": "Imam Abu Hanifa al-Nu'man ibn Thabit",
+            "fa": "امام ابو حنیفه نعمان بن ثابت",
+            "ms": "Imam Abu Hanifa al-Nu'man ibn Thabit",
+            "ur": "امام ابو حنیفہ نعمان بن ثابت"
         },
         "school": "hanafi",
-        "lifespan": "80 - 150 AH",
-        "birthplace": {"ar": "الكوفة - العراق", "en": "Kufa - Iraq"},
-        "scholars": {"ar": "أبو يوسف، محمد بن الحسن الشيباني", "en": "Abu Yusuf, Muhammad al-Shaybani"}
-    }
-]
+        "lifespan": "80 - 150 AH (699 - 767 CE)",
+        "birthplace": {
+            "ar": "الكوفة - العراق",
+            "en": "Kufa - Iraq",
+            "fr": "Koufa - Irak",
+            "fa": "کوفه - عراق",
+            "ms": "Kufah - Iraq",
+            "ur": "کوفہ - عراق"
+        },
+        "founding_place": {
+            "ar": "الكوفة - العراق",
+            "en": "Kufa - Iraq",
+            "fr": "Koufa - Irak",
+            "fa": "کوفه - عراق",
+            "ms": "Kufah - Iraq",
+            "ur": "کوفہ - عراق"
+        },
+        "scholars": {
+            "ar": "أبو يوسف، محمد بن الحسن الشيباني، زفر بن الهذيل، الحسن بن زياد",
+            "en": "Abu Yusuf, Muhammad ibn al-Hasan al-Shaybani, Zufar ibn al-Hudhayl, al-Hasan ibn Ziyad",
+            "fr": "Abu Yusuf, Muhammad ibn al-Hasan al-Shaybani, Zufar ibn al-Hudhayl, al-Hasan ibn Ziyad",
+            "fa": "ابو یوسف، محمد بن حسن شیبانی، زفر بن هذیل، حسن بن زیاد",
+            "ms": "Abu Yusuf, Muhammad ibn al-Hasan al-Shaybani, Zufar ibn al-Hudhayl, al-Hasan ibn Ziyad",
+            "ur": "ابو یوسف، محمد بن الحسن الشیبانی، زفر بن الہذیل، الحسن بن زیاد"
+        },
+        "summary": {
+            "ar": "أول الأئمة الأربعة، وأقدمهم وفاةً. اشتهر بالرأي والقياس، واعتمد على الاستحسان في الفقه. مذهبه ينتشر في تركيا، شبه القارة الهندية، آسيا الوسطى، والصين.",
+            "en": "The first of the four Imams, and the earliest to pass away. Known for his use of reason and analogy (qiyas), and juristic preference (istihsan). His school is widespread in Turkey, the Indian subcontinent, Central Asia, and China.",
+            "fr": "Le premier des quatre imams, et le plus ancien à disparaître. Connu pour son usage de la raison et de l'analogie (qiyas), et de la préférence juridique (istihsan). Son école est répandue en Turquie, dans le sous-continent indien, en Asie centrale et en Chine.",
+            "fa": "نخستین و قدیمی‌ترین امام از ائمه چهارگانه. به استفاده از رأی و قیاس و استحسان در فقه شهرت دارد. مذهب او در ترکیه، شبه قاره هند، آسیای مرکزی و چین گسترده است.",
+            "ms": "Imam pertama daripada empat imam, dan yang paling awal meninggal dunia. Terkenal dengan penggunaan akal dan qiyas, serta istihsan dalam fiqh. Mazhabnya tersebar di Turki, benua kecil India, Asia Tengah dan China.",
+            "ur": "ائمہ اربعہ میں پہلے اور وفات میں سب سے قدیم۔ رأی و قیاس اور استحسان کے لیے مشہور۔ ان کا مذہب ترکی، برصغیر، وسطی ایشیا اور چین میں پھیلا ہوا ہے۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "الإمام مالك بن أنس الأصبحي",
+            "en": "Imam Malik ibn Anas al-Asbahi",
+            "fr": "Imam Malik ibn Anas al-Asbahi",
+            "fa": "امام مالک بن انس اصبحی",
+            "ms": "Imam Malik bin Anas al-Asbahi",
+            "ur": "امام مالک بن انس اصبحی"
+        },
+        "school": "maliki",
+        "lifespan": "93 - 179 AH (711 - 795 CE)",
+        "birthplace": {
+            "ar": "المدينة المنورة",
+            "en": "Medina",
+            "fr": "Médine",
+            "fa": "مدینه منوره",
+            "ms": "Madinah",
+            "ur": "مدینہ منورہ"
+        },
+        "founding_place": {
+            "ar": "المدينة المنورة",
+            "en": "Medina",
+            "fr": "Médine",
+            "fa": "مدینه منوره",
+            "ms": "Madinah",
+            "ur": "مدینہ منورہ"
+        },
+        "scholars": {
+            "ar": "ابن القاسم، سحنون، ابن رشد، القرافي، خليل بن إسحاق",
+            "en": "Ibn al-Qasim, Sahnun, Ibn Rushd, al-Qarafi, Khalil ibn Ishaq",
+            "fr": "Ibn al-Qasim, Sahnun, Ibn Rushd, al-Qarafi, Khalil ibn Ishaq",
+            "fa": "ابن قاسم، سحنون، ابن رشد، قرافی، خلیل بن اسحاق",
+            "ms": "Ibn al-Qasim, Sahnun, Ibn Rushd, al-Qarafi, Khalil bin Ishaq",
+            "ur": "ابن القاسم، سحنون، ابن رشد، القرافي، خليل بن إسحاق"
+        },
+        "summary": {
+            "ar": "صاحب الموطأ، واشتهر بالأثر والعمل والحديث. مذهبه ينتشر في شمال وغرب أفريقيا، والأندلس سابقاً، وبعض دول الخليج.",
+            "en": "Author of the Muwatta', known for his reliance on the practice of the people of Medina and hadith. His school is widespread in North and West Africa, formerly Andalusia, and some Gulf countries.",
+            "fr": "Auteur du Muwatta', connu pour son recours à la pratique des habitants de Médine et au hadith. Son école est répandue en Afrique du Nord et de l'Ouest, en Andalousie autrefois, et dans certains pays du Golfe.",
+            "fa": "صاحب الموطأ، به اثر و عمل اهل مدینه و حدیث شهرت دارد. مذهب او در شمال و غرب آفریقا، اندلس سابق و برخی کشورهای خلیج فارس گسترده است.",
+            "ms": "Pengarang Muwatta', terkenal dengan amalan penduduk Madinah dan hadis. Mazhabnya tersebar di Afrika Utara dan Barat, Andalusia dahulu, dan beberapa negara Teluk.",
+            "ur": "موطا کے مصنف، اثر و عمل اور حدیث کے لیے مشہور۔ ان کا مذہب شمالی اور مغربی افریقہ، سابقہ اندلس اور کچھ خلیجی ممالک میں پھیلا ہوا ہے۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "الإمام محمد بن إدريس الشافعي",
+            "en": "Imam Muhammad
