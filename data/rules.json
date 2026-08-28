@@ -1,20 +1,13 @@
 [
     {
-        "name": {
-            "ar": "اليقين لا يزول بالشك",
-            "en": "Certainty cannot be overridden by doubt",
-            "fr": "La certitude ne peut être remplacée par le doute",
-            "fa": "یقین به شک زایل نمی‌شود",
-            "ms": "Keyakinan tidak boleh digantikan dengan keraguan",
-            "ur": "یقین شک سے زائل نہیں ہوتا"
-        },
+        "name": {"ar": "اليقين لا يزول بالشك", "en": "Certainty cannot be overridden by doubt", "fr": "La certitude ne peut être remplacée par le doute", "fa": "یقین به شک زایل نمی‌شود", "ms": "Keyakinan tidak boleh digantikan dengan keraguan", "ur": "یقین شک سے زائل نہیں ہوتا"},
         "definition": {
-            "ar": "إذا ثبت أمر بيقين فلا يزول إلا بيقين مثله، ولا يؤثر فيه مجرد الشك.",
-            "en": "Certainty cannot be overridden by doubt.",
-            "fr": "La certitude ne peut être remplacée par le doute.",
-            "fa": "هر چیزی که با یقین ثابت شده است با شک از بین نمی‌رود.",
-            "ms": "Keyakinan tidak boleh digantikan dengan keraguan.",
-            "ur": "جو چیز یقین سے ثابت ہو جائے وہ شک سے زائل نہیں ہوتی۔"
+            "ar": "إذا ثبت أمر بيقين فلا يزول إلا بيقين مثله، ولا يؤثر فيه مجرد الشك. متفق عليها عند جميع المذاهب.",
+            "en": "Certainty cannot be overridden by doubt. Agreed upon by all schools.",
+            "fr": "La certitude ne peut être remplacée par le doute. Admise par toutes les écoles.",
+            "fa": "هر چیزی که با یقین ثابت شده است با شک از بین نمی‌رود. مورد اتفاق همه مذاهب.",
+            "ms": "Keyakinan tidak boleh digantikan dengan keraguan. Dipersetujui oleh semua mazhab.",
+            "ur": "جو چیز یقین سے ثابت ہو جائے وہ شک سے زائل نہیں ہوتی۔ تمام مذاہب کا متفقہ اصول۔"
         },
         "example": {
             "ar": "من تيقن الطهارة وشك في الحدث، يبقى على الطهارة.",
@@ -23,24 +16,18 @@
             "fa": "کسی که یقین به طهارت دارد و به حدث شک می‌کند، بر طهارت باقی می‌ماند.",
             "ms": "Jika seseorang yakin suci dan ragu najis, dia kekal dalam keadaan suci.",
             "ur": "جو شخص طہارت پر یقین رکھتا ہے اور حدث پر شک کرتا ہے، وہ طہارت پر باقی رہتا ہے۔"
-        }
+        },
+        "schools": "جميع المذاهب"
     },
     {
-        "name": {
-            "ar": "المشقة تجلب التيسير",
-            "en": "Hardship brings ease",
-            "fr": "La difficulté apporte la facilité",
-            "fa": "مشقت باعث آسانی می‌شود",
-            "ms": "Kesukaran membawa kemudahan",
-            "ur": "مشقت آسانی لاتی ہے"
-        },
+        "name": {"ar": "المشقة تجلب التيسير", "en": "Hardship brings ease", "fr": "La difficulté apporte la facilité", "fa": "مشقت باعث آسانی می‌شود", "ms": "Kesukaran membawa kemudahan", "ur": "مشقت آسانی لاتی ہے"},
         "definition": {
-            "ar": "عند وجود مشقة معتبرة في تطبيق الحكم الشرعي، يُفتح باب الرخصة والتخفيف.",
-            "en": "Hardship brings ease in Islamic jurisprudence.",
-            "fr": "La difficulté apporte la facilité dans la jurisprudence islamique.",
-            "fa": "هنگام وجود مشقت معتبر در اجرای حکم شرعی، باب رخصت و تخفیف گشوده می‌شود.",
-            "ms": "Apabila terdapat kesukaran yang diiktiraf dalam melaksanakan hukum syarak, keringanan dan kemudahan diberikan.",
-            "ur": "شرعی حکم کے اطلاق میں معتبر مشقت کی صورت میں رخصت اور تخفیف کا دروازہ کھل جاتا ہے۔"
+            "ar": "عند وجود مشقة معتبرة في تطبيق الحكم الشرعي، يُفتح باب الرخصة والتخفيف. متفق عليها عند جميع المذاهب.",
+            "en": "Hardship brings ease in Islamic jurisprudence. Agreed upon by all schools.",
+            "fr": "La difficulté apporte la facilité dans la jurisprudence islamique. Admise par toutes les écoles.",
+            "fa": "هنگام وجود مشقت معتبر در اجرای حکم شرعی، باب رخصت و تخفیف گشوده می‌شود. مورد اتفاق همه مذاهب.",
+            "ms": "Apabila terdapat kesukaran yang diiktiraf dalam melaksanakan hukum syarak, keringanan dan kemudahan diberikan. Dipersetujui oleh semua mazhab.",
+            "ur": "شرعی حکم کے اطلاق میں معتبر مشقت کی صورت میں رخصت اور تخفیف کا دروازہ کھل جاتا ہے۔ تمام مذاہب کا متفقہ اصول۔"
         },
         "example": {
             "ar": "قصر الصلاة في السفر أو الإفطار في المرض.",
@@ -49,24 +36,18 @@
             "fa": "قصر نماز در سفر یا افطار در بیماری.",
             "ms": "Memendekkan solat semasa musafir atau berbuka puasa ketika sakit.",
             "ur": "سفر میں نماز قصر کرنا یا بیماری میں روزہ افطار کرنا۔"
-        }
+        },
+        "schools": "جميع المذاهب"
     },
     {
-        "name": {
-            "ar": "الضرر يزال",
-            "en": "Harm must be removed",
-            "fr": "Le préjudice doit être écarté",
-            "fa": "ضرر باید برطرف شود",
-            "ms": "Kemudaratan mesti dihilangkan",
-            "ur": "نقصان کو دور کیا جانا چاہیے"
-        },
+        "name": {"ar": "الضرر يزال", "en": "Harm must be removed", "fr": "Le préjudice doit être écarté", "fa": "ضرر باید برطرف شود", "ms": "Kemudaratan mesti dihilangkan", "ur": "نقصان کو دور کیا جانا چاہیے"},
         "definition": {
-            "ar": "كل ما فيه ضرر على الفرد أو الجماعة يجب رفعه أو منعه.",
-            "en": "Harm must be removed or prevented.",
-            "fr": "Le préjudice doit être écarté ou empêché.",
-            "fa": "هر چیزی که برای فرد یا جامعه ضرر دارد باید برطرف یا ممنوع شود.",
-            "ms": "Segala yang membawa kemudaratan kepada individu atau masyarakat mesti dihilangkan atau dicegah.",
-            "ur": "ہر وہ چیز جو فرد یا جماعت کو نقصان پہنچاتی ہے اسے دور یا روکا جانا چاہیے۔"
+            "ar": "كل ما فيه ضرر على الفرد أو الجماعة يجب رفعه أو منعه. متفق عليها عند جميع المذاهب.",
+            "en": "Harm must be removed or prevented. Agreed upon by all schools.",
+            "fr": "Le préjudice doit être écarté ou empêché. Admise par toutes les écoles.",
+            "fa": "هر چیزی که برای فرد یا جامعه ضرر دارد باید برطرف یا ممنوع شود. مورد اتفاق همه مذاهب.",
+            "ms": "Segala yang membawa kemudaratan kepada individu atau masyarakat mesti dihilangkan atau dicegah. Dipersetujui oleh semua mazhab.",
+            "ur": "ہر وہ چیز جو فرد یا جماعت کو نقصان پہنچاتی ہے اسے دور یا روکا جانا چاہیے۔ تمام مذاہب کا متفقہ اصول۔"
         },
         "example": {
             "ar": "منع الغش في البيع أو إزالة الأذى عن الطريق.",
@@ -75,24 +56,18 @@
             "fa": "منع تقلب در خرید و فروش یا برداشتن مزاحمت از راه.",
             "ms": "Mencegah penipuan dalam jualan atau membuang bahaya dari jalan.",
             "ur": "بیع میں دھوکہ دہی کو روکنا یا راستے سے نقصان کو ہٹانا۔"
-        }
+        },
+        "schools": "جميع المذاهب"
     },
     {
-        "name": {
-            "ar": "العادة محكمة",
-            "en": "Custom is a valid consideration",
-            "fr": "La coutume est considérée",
-            "fa": "عرف و عادت معتبر است",
-            "ms": "Adat dipertimbangkan",
-            "ur": "عادت کو معتبر سمجھا جاتا ہے"
-        },
+        "name": {"ar": "العادة محكمة", "en": "Custom is a valid consideration", "fr": "La coutume est considérée", "fa": "عرف و عادت معتبر است", "ms": "Adat dipertimbangkan", "ur": "عادت کو معتبر سمجھا جاتا ہے"},
         "definition": {
-            "ar": "العرف والعادة المعتبرة شرعًا تُعتبر في الأحكام ما لم تخالف نصًا شرعيًا.",
-            "en": "Custom is a valid consideration in Islamic law.",
-            "fr": "La coutume est considérée en droit islamique.",
-            "fa": "عرف و عادت معتبر شرعی در احکام لحاظ می‌شود.",
-            "ms": "Adat dan uruf yang diiktiraf secara syarak dipertimbangkan dalam hukum.",
-            "ur": "شرعی طور پر معتبر عرف و عادت کو احکام میں لحاظ رکھا جاتا ہے بشرطیکہ کسی شرعی نص کی مخالفت نہ ہو۔"
+            "ar": "العرف والعادة المعتبرة شرعًا تُعتبر في الأحكام ما لم تخالف نصًا شرعيًا. متفق عليها عند جميع المذاهب مع اختلاف في التفاصيل.",
+            "en": "Custom is a valid consideration in Islamic law. Agreed upon by all schools with differences in details.",
+            "fr": "La coutume est considérée en droit islamique. Admise par toutes les écoles avec des différences dans les détails.",
+            "fa": "عرف و عادت معتبر شرعی در احکام لحاظ می‌شود. مورد اتفاق همه مذاهب با اختلاف در جزئیات.",
+            "ms": "Adat dan uruf yang diiktiraf secara syarak dipertimbangkan dalam hukum. Dipersetujui oleh semua mazhab dengan perbezaan dalam butiran.",
+            "ur": "شرعی طور پر معتبر عرف و عادت کو احکام میں لحاظ رکھا جاتا ہے۔ تمام مذاہب کا متفقہ اصول مع اختلاف در تفصیلات۔"
         },
         "example": {
             "ar": "أعراف الزواج أو البيع.",
@@ -101,24 +76,18 @@
             "fa": "عرف‌های ازدواج یا خرید و فروش.",
             "ms": "Adat mengenai perkahwinan atau jualan.",
             "ur": "شادی یا بیع کے متعلق رسوم۔"
-        }
+        },
+        "schools": "جميع المذاهب"
     },
     {
-        "name": {
-            "ar": "الأمور بمقاصدها",
-            "en": "Actions are judged by intentions",
-            "fr": "Les actions sont jugées par leurs intentions",
-            "fa": "کارها با نیت‌ها ارزیابی می‌شوند",
-            "ms": "Tindakan dinilai dengan niat",
-            "ur": "اعمال کا دارومدار نیتوں پر ہے"
-        },
+        "name": {"ar": "الأمور بمقاصدها", "en": "Actions are judged by intentions", "fr": "Les actions sont jugées par leurs intentions", "fa": "کارها با نیت‌ها ارزیابی می‌شوند", "ms": "Tindakan dinilai dengan niat", "ur": "اعمال کا دارومدار نیتوں پر ہے"},
         "definition": {
-            "ar": "الحكم على الأفعال يكون بحسب نية صاحبها ومقصده.",
-            "en": "Actions are judged by their intentions.",
-            "fr": "Les actions sont jugées selon leurs intentions.",
-            "fa": "حکم بر افعال بر اساس نیت و هدف صاحب آن است.",
-            "ms": "Tindakan dinilai berdasarkan niat dan tujuannya.",
-            "ur": "اعمال کا حکم ان کے ارادے اور مقصد کے مطابق ہوتا ہے۔"
+            "ar": "الحكم على الأفعال يكون بحسب نية صاحبها ومقصده. متفق عليها عند جميع المذاهب.",
+            "en": "Actions are judged by their intentions. Agreed upon by all schools.",
+            "fr": "Les actions sont jugées selon leurs intentions. Admise par toutes les écoles.",
+            "fa": "حکم بر افعال بر اساس نیت و هدف صاحب آن است. مورد اتفاق همه مذاهب.",
+            "ms": "Tindakan dinilai berdasarkan niat dan tujuannya. Dipersetujui oleh semua mazhab.",
+            "ur": "اعمال کا حکم ان کے ارادے اور مقصد کے مطابق ہوتا ہے۔ تمام مذاہب کا متفقہ اصول۔"
         },
         "example": {
             "ar": "التفريق بين الصدقة والهدية.",
@@ -127,24 +96,18 @@
             "fa": "تفاوت بین صدقه و هدیه.",
             "ms": "Perbezaan antara sedekah dan hadiah.",
             "ur": "صدقہ اور ہدیہ میں فرق۔"
-        }
+        },
+        "schools": "جميع المذاهب"
     },
     {
-        "name": {
-            "ar": "الضرورات تبيح المحظورات",
-            "en": "Necessities permit the forbidden",
-            "fr": "Les nécessités permettent le prohibé",
-            "fa": "ضرورت‌ها حرام را مباح می‌کنند",
-            "ms": "Keperluan membenarkan yang haram",
-            "ur": "ضرورتیں ممنوعات کو جائز کرتی ہیں"
-        },
+        "name": {"ar": "الضرورات تبيح المحظورات", "en": "Necessities permit the forbidden", "fr": "Les nécessités permettent le prohibé", "fa": "ضرورت‌ها حرام را مباح می‌کنند", "ms": "Keperluan membenarkan yang haram", "ur": "ضرورتیں ممنوعات کو جائز کرتی ہیں"},
         "definition": {
-            "ar": "عند الضرورة يجوز ارتكاب المحظور بقدر الحاجة فقط.",
-            "en": "Necessities permit the forbidden to the extent of need.",
-            "fr": "Les nécessités permettent le prohibé dans la mesure du besoin.",
-            "fa": "در صورت ضرورت، انجام کار حرام به اندازه نیاز مجاز است.",
-            "ms": "Dalam keadaan darurat, perkara yang haram dibenarkan sekadar keperluan.",
-            "ur": "ضرورت کی صورت میں ممنوع چیز کو ضرورت کے بقدر جائز کر دیا جاتا ہے۔"
+            "ar": "عند الضرورة يجوز ارتكاب المحظور بقدر الحاجة فقط. متفق عليها عند جميع المذاهب.",
+            "en": "Necessities permit the forbidden to the extent of need. Agreed upon by all schools.",
+            "fr": "Les nécessités permettent le prohibé dans la mesure du besoin. Admise par toutes les écoles.",
+            "fa": "در صورت ضرورت، انجام کار حرام به اندازه نیاز مجاز است. مورد اتفاق همه مذاهب.",
+            "ms": "Dalam keadaan darurat, perkara yang haram dibenarkan sekadar keperluan. Dipersetujui oleh semua mazhab.",
+            "ur": "ضرورت کی صورت میں ممنوع چیز کو ضرورت کے بقدر جائز کر دیا جاتا ہے۔ تمام مذاہب کا متفقہ اصول۔"
         },
         "example": {
             "ar": "أكل الميتة عند الخوف من الهلاك.",
@@ -153,24 +116,18 @@
             "fa": "خوردن مردار در صورت ترس از مرگ.",
             "ms": "Memakan bangkai apabila takut mati.",
             "ur": "موت کے خوف سے مردار کھانا۔"
-        }
+        },
+        "schools": "جميع المذاهب"
     },
     {
-        "name": {
-            "ar": "الوسائل لها أحكام المقاصد",
-            "en": "The means take the ruling of their objectives",
-            "fr": "Les moyens prennent le jugement de leurs objectifs",
-            "fa": "وسایل حکم اهداف خود را دارند",
-            "ms": "Cara-cara mengambil hukum matlamatnya",
-            "ur": "ذرائع اپنے مقاصد کا حکم رکھتے ہیں"
-        },
+        "name": {"ar": "الوسائل لها أحكام المقاصد", "en": "The means take the ruling of their objectives", "fr": "Les moyens prennent le jugement de leurs objectifs", "fa": "وسایل حکم اهداف خود را دارند", "ms": "Cara-cara mengambil hukum matlamatnya", "ur": "ذرائع اپنے مقاصد کا حکم رکھتے ہیں"},
         "definition": {
-            "ar": "ما كان وسيلة لشيء يأخذ حكم ذلك الشيء.",
-            "en": "The means take the ruling of their objectives.",
-            "fr": "Les moyens prennent le jugement de leurs objectifs.",
-            "fa": "هر چیزی که وسیله چیزی باشد، حکم آن چیز را دارد.",
-            "ms": "Apa yang menjadi wasilah kepada sesuatu mengambil hukum sesuatu itu.",
-            "ur": "جو چیز کسی چیز کا ذریعہ ہوتی ہے وہ اس کا حکم رکھتی ہے۔"
+            "ar": "ما كان وسيلة لشيء يأخذ حكم ذلك الشيء. متفق عليها عند جميع المذاهب.",
+            "en": "The means take the ruling of their objectives. Agreed upon by all schools.",
+            "fr": "Les moyens prennent le jugement de leurs objectifs. Admise par toutes les écoles.",
+            "fa": "هر چیزی که وسیله چیزی باشد، حکم آن چیز را دارد. مورد اتفاق همه مذاهب.",
+            "ms": "Apa yang menjadi wasilah kepada sesuatu mengambil hukum sesuatu itu. Dipersetujui oleh semua mazhab.",
+            "ur": "جو چیز کسی چیز کا ذریعہ ہوتی ہے وہ اس کا حکم رکھتی ہے۔ تمام مذاہب کا متفقہ اصول۔"
         },
         "example": {
             "ar": "الكتابة في العقود لحفظ الحقوق.",
@@ -179,76 +136,18 @@
             "fa": "نوشتن قراردادها برای حفظ حقوق.",
             "ms": "Menulis kontrak untuk memelihara hak.",
             "ur": "حقوق کے تحفظ کے لیے معاہدے تحریر کرنا۔"
-        }
+        },
+        "schools": "جميع المذاهب"
     },
     {
-        "name": {
-            "ar": "القياس",
-            "en": "Analogy (Qiyas)",
-            "fr": "Analogie (Qiyas)",
-            "fa": "قیاس",
-            "ms": "Qiyas",
-            "ur": "قیاس"
-        },
+        "name": {"ar": "الخاص يحكم العام", "en": "The specific takes precedence over the general", "fr": "Le spécifique prévaut sur le général", "fa": "خاص بر عام مقدم است", "ms": "Khusus mengatasi umum", "ur": "خاص کو عام پر ترجیح ہے"},
         "definition": {
-            "ar": "إلحاق فرع بأصل في الحكم لعلة جامعة بينهما.",
-            "en": "Extending a ruling from an original case to a new case due to shared reasoning.",
-            "fr": "Extension d'une règle d'un cas original à un nouveau cas en raison d'un raisonnement partagé.",
-            "fa": "الحاق فرع به اصل در حکم به دلیل علت مشترک.",
-            "ms": "Memperluas hukum dari kes asal ke kes baru kerana persamaan sebab.",
-            "ur": "حکم میں فرع کو اصل سے ملانا بوجہ مشترک علت۔"
-        },
-        "example": {
-            "ar": "قياس المخدرات على الخمر في التحريم لعلة الإسكار.",
-            "en": "Analogizing drugs to alcohol in prohibition due to the reasoning of intoxication.",
-            "fr": "Analogie des drogues à l'alcool dans l'interdiction en raison de l'intoxication.",
-            "fa": "قیاس مواد مخدر بر خمر در تحریم به دلیل اسکار.",
-            "ms": "Menganalogikan dadah kepada arak dalam pengharaman kerana sebab memabukkan.",
-            "ur": "نشہ کی علت کی وجہ سے منشیات کو شراب پر قیاس کرنا۔"
-        }
-    },
-    {
-        "name": {
-            "ar": "المصالح المرسلة",
-            "en": "Considered public interest",
-            "fr": "Intérêt public considéré",
-            "fa": "مصالح مرسله",
-            "ms": "Maslahah mursalah",
-            "ur": "مصالح مرسلہ"
-        },
-        "definition": {
-            "ar": "اعتبار المصلحة التي لم يرد نص خاص بها ولم تُلغَ، إذا كانت تحقق منفعة عامة.",
-            "en": "Considering public interests not explicitly addressed in primary sources.",
-            "fr": "Considération des intérêts publics non explicitement abordés dans les sources primaires.",
-            "fa": "اعتبار مصلحتی که نص خاصی برای آن نیامده و لغو نشده است، در صورت تحقق منفعت عمومی.",
-            "ms": "Mempertimbangkan maslahah yang tidak disebut secara khusus dalam nas dan tidak dibatalkan, jika ia membawa manfaat umum.",
-            "ur": "ان مفادات کا اعتبار جن کا کوئی خاص نص نہیں ہے اور نہ ہی انہیں منسوخ کیا گیا ہے، اگر وہ عام مفاد کو پورا کرتی ہیں۔"
-        },
-        "example": {
-            "ar": "توثيق العقود بالكتابة.",
-            "en": "Documenting contracts in writing.",
-            "fr": "Documenter les contrats par écrit.",
-            "fa": "مستند کردن قراردادها به نوشته.",
-            "ms": "Mendokumentasikan kontrak secara bertulis.",
-            "ur": "معاہدات کو تحریر میں دستاویز کرنا۔"
-        }
-    },
-    {
-        "name": {
-            "ar": "الخاص يحكم العام",
-            "en": "The specific takes precedence over the general",
-            "fr": "Le spécifique prévaut sur le général",
-            "fa": "خاص بر عام مقدم است",
-            "ms": "Khusus mengatasi umum",
-            "ur": "خاص کو عام پر ترجیح ہے"
-        },
-        "definition": {
-            "ar": "إذا ورد نص عام ونص خاص، يُقدَّم الخاص في التطبيق.",
-            "en": "When general and specific texts conflict, the specific takes precedence.",
-            "fr": "Lorsque les textes généraux et spécifiques sont en conflit, le spécifique prévaut.",
-            "fa": "اگر نص عام و خاص با هم تعارض داشته باشند، خاص مقدم می‌شود.",
-            "ms": "Apabila teks umum dan khusus bercanggah, teks khusus didahulukan.",
-            "ur": "اگر عام اور خاص نص باہم متعارض ہوں تو خاص کو ترجیح دی جاتی ہے۔"
+            "ar": "إذا ورد نص عام ونص خاص، يُقدَّم الخاص في التطبيق. متفق عليها عند جميع المذاهب.",
+            "en": "When general and specific texts conflict, the specific takes precedence. Agreed upon by all schools.",
+            "fr": "Lorsque les textes généraux et spécifiques sont en conflit, le spécifique prévaut. Admise par toutes les écoles.",
+            "fa": "اگر نص عام و خاص با هم تعارض داشته باشند، خاص مقدم می‌شود. مورد اتفاق همه مذاهب.",
+            "ms": "Apabila teks umum dan khusus bercanggah, teks khusus didahulukan. Dipersetujui oleh semua mazhab.",
+            "ur": "اگر عام اور خاص نص باہم متعارض ہوں تو خاص کو ترجیح دی جاتی ہے۔ تمام مذاہب کا متفقہ اصول۔"
         },
         "example": {
             "ar": "قوله تعالى: (وأحل الله البيع) عام، وقوله: (حرمت عليكم الميتة) خاص.",
@@ -257,24 +156,18 @@
             "fa": "آیه عام 'خداوند خرید و فروش را حلال کرده' vs 'مردار بر شما حرام شده'.",
             "ms": "Ayat umum 'Allah menghalalkan jual beli' vs 'Diharamkan kepada kamu bangkai'.",
             "ur": "عام آیت 'اللہ نے بیع کو حلال کیا' vs 'تم پر مردار حرام ہے'۔"
-        }
+        },
+        "schools": "جميع المذاهب"
     },
     {
-        "name": {
-            "ar": "لا ضرر ولا ضرار",
-            "en": "No harm and no reciprocating harm",
-            "fr": "Pas de mal et pas de réciprocité de mal",
-            "fa": "نه ضرر و نه ضرر متقابل",
-            "ms": "Tidak boleh membahayakan dan tidak boleh membalas bahaya",
-            "ur": "نہ نقصان اور نہ نقصان کا بدلہ"
-        },
+        "name": {"ar": "لا ضرر ولا ضرار", "en": "No harm and no reciprocating harm", "fr": "Pas de mal et pas de réciprocité de mal", "fa": "نه ضرر و نه ضرر متقابل", "ms": "Tidak boleh membahayakan dan tidak boleh membalas bahaya", "ur": "نہ نقصان اور نہ نقصان کا بدلہ"},
         "definition": {
-            "ar": "قاعدة مأخوذة من حديث النبي ﷺ: (لا ضرر ولا ضرار)، وتعني أنه لا يجوز إيقاع الضرر بالنفس أو بالغير، ولا يجوز رد الضرر بضرر مثله.",
-            "en": "Based on the Prophetic hadith: 'No harm and no reciprocating harm.'",
-            "fr": "Basé sur le hadith prophétique: 'Pas de mal et pas de réciprocité de mal.'",
-            "fa": "بر اساس حدیث نبوی: 'نه ضرر و نه ضرر متقابل'.",
-            "ms": "Berdasarkan hadis Nabi: 'Tidak boleh membahayakan dan tidak boleh membalas bahaya'.",
-            "ur": "نبوی حدیث پر مبنی: 'نہ نقصان اور نہ نقصان کا بدلہ'۔"
+            "ar": "قاعدة مأخوذة من حديث النبي ﷺ: (لا ضرر ولا ضرار)، وتعني أنه لا يجوز إيقاع الضرر بالنفس أو بالغير، ولا يجوز رد الضرر بضرر مثله. متفق عليها عند جميع المذاهب.",
+            "en": "Based on the Prophetic hadith: 'No harm and no reciprocating harm.' Agreed upon by all schools.",
+            "fr": "Basé sur le hadith prophétique: 'Pas de mal et pas de réciprocité de mal.' Admise par toutes les écoles.",
+            "fa": "بر اساس حدیث نبوی: 'نه ضرر و نه ضرر متقابل'. مورد اتفاق همه مذاهب.",
+            "ms": "Berdasarkan hadis Nabi: 'Tidak boleh membahayakan dan tidak boleh membalas bahaya'. Dipersetujui oleh semua mazhab.",
+            "ur": "نبوی حدیث پر مبنی: 'نہ نقصان اور نہ نقصان کا بدلہ'۔ تمام مذاہب کا متفقہ اصول۔"
         },
         "example": {
             "ar": "منع البناء الذي يضر بالجار.",
@@ -283,6 +176,227 @@
             "fa": "جلوگیری از ساخت و سازی که به همسایه ضرر می‌زند.",
             "ms": "Mencegah pembinaan yang merugikan jiran.",
             "ur": "ایسی تعمیر کو روکنا جو پڑوسی کو نقصان پہنچائے۔"
-        }
+        },
+        "schools": "جميع المذاهب"
+    },
+    {
+        "name": {"ar": "الأصل في الأشياء الإباحة", "en": "The default is permissibility", "fr": "Le principe de base est la permission", "fa": "اصل در اشیاء اباحه است", "ms": "Hukum asal adalah harus", "ur": "اصل اشیاء میں اباحت ہے"},
+        "definition": {
+            "ar": "الأصل في الأشياء والأفعال الإباحة حتى يقوم دليل على التحريم. متفق عليها عند جميع المذاهب.",
+            "en": "The default ruling for things and actions is permissibility until evidence proves otherwise. Agreed upon by all schools.",
+            "fr": "Le principe de base pour les choses et les actions est la permission jusqu'à ce qu'une preuve établisse le contraire. Admise par toutes les écoles.",
+            "fa": "اصل در اشیاء و افعال اباحه است تا زمانی که دلیل بر حرمت قائم شود. مورد اتفاق همه مذاهب.",
+            "ms": "Hukum asal bagi sesuatu dan tindakan adalah harus sehingga ada dalil yang menunjukkan sebaliknya. Dipersetujui oleh semua mazhab.",
+            "ur": "اشیا اور افعال میں اصل اباحت ہے جب تک کہ حرمت کی کوئی دلیل نہ آئے۔ تمام مذاہب کا متفقہ اصول۔"
+        },
+        "example": {
+            "ar": "جواز أكل جميع الأطعمة ما لم يرد نص بتحريمها.",
+            "en": "Permissibility of all foods unless there is a text prohibiting them.",
+            "fr": "La permission de manger tous les aliments à moins qu'un texte ne les interdise.",
+            "fa": "جواز خوردن همه غذاها مگر اینکه نصی بر حرمت آنها وارد شود.",
+            "ms": "Kebolehan memakan semua makanan kecuali ada nas yang mengharamkannya.",
+            "ur": "تمام کھانوں کا جائز ہونا جب تک کہ کوئی نص ان کی حرمت پر نہ ہو۔"
+        },
+        "schools": "جميع المذاهب"
+    },
+    {
+        "name": {"ar": "الأصل براءة الذمة", "en": "Presumption of innocence", "fr": "Présomption d'innocence", "fa": "اصل برائت ذمه", "ms": "Prinsip bebas tanggungan", "ur": "اصل برائت ذمہ"},
+        "definition": {
+            "ar": "الأصل أن يبقى الإنسان غير مطالَب بحق أو التزام تجاه غيره حتى يثبت خلاف ذلك بدليل معتبر. متفق عليها عند جميع المذاهب.",
+            "en": "A person is presumed free of any claim or liability until proven otherwise by valid evidence. Agreed upon by all schools.",
+            "fr": "Une personne est présumée libre de toute obligation jusqu'à preuve valable du contraire. Admise par toutes les écoles.",
+            "fa": "اصل این است که انسان تا اثبات خلاف آن با دلیل معتبر، از هیچ حق یا تعهدی نسبت به دیگری مسئول نیست. مورد اتفاق همه مذاهب.",
+            "ms": "Pada asalnya seseorang bebas daripada sebarang tuntutan atau tanggungan sehingga terbukti sebaliknya dengan bukti sah. Dipersetujui oleh semua mazhab.",
+            "ur": "اصل یہ ہے کہ انسان کسی حق یا ذمہ داری سے بری رہتا ہے جب تک معتبر دلیل سے اس کے خلاف ثابت نہ ہو۔ تمام مذاہب کا متفقہ اصول۔"
+        },
+        "example": {
+            "ar": "من ادّعى ديناً على آخر فالبيّنة عليه؛ لأن الأصل براءة ذمة المدَّعى عليه.",
+            "en": "Whoever claims a debt against another must provide proof, since the defendant is presumed free of liability.",
+            "fr": "Celui qui prétend qu'une dette lui est due doit en apporter la preuve, l'accusé étant présumé sans dette.",
+            "fa": "هر کس ادعای دِینی بر دیگری کند، اثبات آن بر عهده اوست؛ زیرا اصل برائت ذمه مدعی‌علیه است.",
+            "ms": "Sesiapa mendakwa hutang ke atas orang lain wajib membawa bukti, kerana asalnya tertuduh bebas tanggungan.",
+            "ur": "جو کسی پر قرض کا دعویٰ کرے، ثبوت اسی کے ذمہ ہے؛ کیونکہ اصل مدعا علیہ کی برأت ہے۔"
+        },
+        "schools": "جميع المذاهب"
+    },
+    {
+        "name": {"ar": "الاستحسان", "en": "Juristic preference (Istihsan)", "fr": "Préférence juridique (Istihsan)", "fa": "استحسان", "ms": "Istihsan", "ur": "استحسان"},
+        "definition": {
+            "ar": "العدول عن مقتضى قياس ظاهر إلى حكم آخر يقتضيه دليل أقوى. معتمد عند الحنفية والمالكية، ومرفوض عند الشافعية والظاهرية.",
+            "en": "Departing from an apparent analogy toward a ruling supported by stronger evidence. Accepted by Hanafi and Maliki, rejected by Shafi'i and Zahiri.",
+            "fr": "S'écarter d'une analogie apparente vers un jugement fondé sur une preuve plus forte. Accepté par les hanafites et les malikites, rejeté par les chaféites et les zahirites.",
+            "fa": "عدول از قیاس ظاهر به حکمی که دلیل قوی‌تری دارد. مورد پذیرش حنفی و مالکی، رد شده در شافعی و ظاهری.",
+            "ms": "Beralih daripada qiyas zahir kepada hukum yang mempunyai dalil lebih kuat. Diterima oleh Hanafi dan Maliki, ditolak oleh Syafie dan Zahiri.",
+            "ur": "ظاہری قیاس سے ہٹ کر ایسے حکم کی طرف رجوع جس کی دلیل مضبوط ہو۔ حنفی اور مالکی میں معتبر، شافعی اور ظاہری میں رد۔"
+        },
+        "example": {
+            "ar": "جواز عقد الاستصناع استحساناً، وإن كان القياس الظاهر يقتضي منعه.",
+            "en": "Permitting the manufacturing contract (istisna') by juristic preference, though strict analogy would forbid it.",
+            "fr": "Autoriser le contrat de fabrication (istisna') par préférence juridique, bien que l'analogie stricte l'interdirait.",
+            "fa": "جواز عقد استصناع به استحسان، هرچند قیاس ظاهر آن را منع می‌کند.",
+            "ms": "Membenarkan akad istisna' secara istihsan, walaupun qiyas zahir melarangnya.",
+            "ur": "استصناع کے معاہدے کا استحساناً جواز، اگرچہ ظاہری قیاس اسے منع کرتا ہے۔"
+        },
+        "schools": "حنفي، مالكي"
+    },
+    {
+        "name": {"ar": "الاستصحاب", "en": "Presumption of continuity", "fr": "Présomption de continuité", "fa": "استصحاب", "ms": "Istishab", "ur": "استصحاب"},
+        "definition": {
+            "ar": "إبقاء الحكم الثابت في الماضي قائماً في الحال والمستقبل، ما لم يقم دليل شرعي على تغييره أو زواله. معتمد عند جميع المذاهب.",
+            "en": "Presuming that a previously established ruling remains in effect unless proven otherwise. Accepted by all schools.",
+            "fr": "Présumer qu'un jugement précédemment établi reste valable, sauf preuve contraire. Accepté par toutes les écoles.",
+            "fa": "باقی نگه‌داشتن حکمی که در گذشته ثابت شده تا زمانی که دلیلی بر تغییر آن اقامه نشود. مورد پذیرش همه مذاهب.",
+            "ms": "Mengekalkan hukum yang telah sabit pada masa lalu sehingga ada dalil yang mengubahnya. Diterima oleh semua mazhab.",
+            "ur": "ماضی میں ثابت شدہ حکم کو حال و مستقبل میں برقرار رکھنا جب تک اس کے خلاف دلیل نہ آئے۔ تمام مذاہب میں معتبر۔"
+        },
+        "example": {
+            "ar": "من ثبتت له ملكية شيء بيقين، بقي مالكاً له حتى يثبت زوال ملكه بدليل.",
+            "en": "Whoever is established as the owner of something remains so until evidence proves otherwise.",
+            "fr": "Celui dont la propriété d'un bien est établie en reste propriétaire jusqu'à preuve du contraire.",
+            "fa": "کسی که مالکیت چیزی برایش به یقین ثابت شده، تا اثبات زوال آن با دلیل، مالک باقی می‌ماند.",
+            "ms": "Sesiapa yang sabit memiliki sesuatu kekal sebagai pemiliknya sehingga terbukti sebaliknya.",
+            "ur": "جس کی ملکیت یقینی طور پر ثابت ہو، وہ اس کا مالک رہتا ہے جب تک زوالِ ملکیت کی دلیل نہ آئے۔"
+        },
+        "schools": "جميع المذاهب"
+    },
+    {
+        "name": {"ar": "سد الذرائع", "en": "Blocking the means", "fr": "Bloquer les moyens", "fa": "سد ذرائع", "ms": "Saddu al-Zara'i", "ur": "سد ذرائع"},
+        "definition": {
+            "ar": "منع فعل جائز في أصله متى كان وسيلة غالبة إلى مفسدة محققة. معتمد عند المالكية والحنابلة، ومقبول عند الشافعية في بعض التطبيقات.",
+            "en": "Blocking an act permissible in itself when it is a likely means to a real harm. Accepted by Maliki and Hanbali, partially accepted by Shafi'i.",
+            "fr": "Interdire un acte permis en soi lorsqu'il est un moyen probable vers un préjudice réel. Accepté par les malikites et les hanbalites, partiellement accepté par les chaféites.",
+            "fa": "منع کاری که در اصل جایز است اگر وسیله غالب به مفسده باشد. مورد پذیرش مالکی و حنبلی، تا حدی در شافعی.",
+            "ms": "Menghalang perbuatan yang asalnya harus jika menjadi jalan kepada kemudaratan. Diterima oleh Maliki dan Hanbali, sebahagian dalam Syafie.",
+            "ur": "اصلاً جائز کام کو روکنا اگر وہ کسی خرابی کا ذریعہ بن جائے۔ مالکی اور حنبلی میں معتبر، شافعی میں محدود۔"
+        },
+        "example": {
+            "ar": "منع بيع السلاح في زمن الفتنة لمن يُخشى استعماله في قتال ظالم.",
+            "en": "Prohibiting the sale of weapons in times of unrest to those likely to use them for unjust bloodshed.",
+            "fr": "Interdire la vente d'armes en temps de troubles à ceux susceptibles de les utiliser injustement.",
+            "fa": "منع فروش سلاح در زمان آشوب به کسی که بیم استفاده ظالمانه از آن می‌رود.",
+            "ms": "Melarang jualan senjata semasa fitnah kepada golongan yang dikhuatiri menyalahgunakannya.",
+            "ur": "فتنے کے دور میں اسلحہ بیچنا اس شخص کو روکنا جس سے ظالمانہ استعمال کا خدشہ ہو۔"
+        },
+        "schools": "مالكي، حنبلي، شافعي (بشروط)"
+    },
+    {
+        "name": {"ar": "درء المفاسد أولى من جلب المصالح", "en": "Preventing harm takes precedence over bringing benefit", "fr": "La prévention du préjudice prime sur l'obtention du bienfait", "fa": "دفع مفسده بر جلب مصلحت مقدم است", "ms": "Mencegah kemudaratan lebih utama daripada membawa manfaat", "ur": "مفسدہ کا دفع کرنا مصلحت کے حصول پر مقدم ہے"},
+        "definition": {
+            "ar": "عند تعارض مصلحة ومفسدة وتعذّر الجمع بينهما، يُقدَّم دفع المفسدة على تحصيل المصلحة. متفق عليها عند جميع المذاهب.",
+            "en": "When a benefit and a harm conflict and cannot both be achieved, preventing the harm takes priority over securing the benefit. Agreed upon by all schools.",
+            "fr": "Lorsqu'un bienfait et un préjudice s'opposent sans conciliation possible, prévenir le préjudice prime sur l'obtention du bienfait. Admise par toutes les écoles.",
+            "fa": "اگر مصلحت و مفسده با هم تعارض داشته باشند و جمع میان آن‌ها ممکن نباشد، دفع مفسده بر جلب مصلحت مقدم است. مورد اتفاق همه مذاهب.",
+            "ms": "Apabila maslahat dan mafsadah bertembung dan tidak boleh digabungkan, mencegah mafsadah didahulukan daripada mengejar maslahat. Dipersetujui oleh semua mazhab.",
+            "ur": "جب مصلحت اور مفسدہ ٹکرائیں اور دونوں کو جمع کرنا ممکن نہ ہو تو مفسدہ دور کرنا مصلحت حاصل کرنے پر مقدم ہے۔ تمام مذاہب کا متفقہ اصول۔"
+        },
+        "example": {
+            "ar": "منع فتح باب معاملة مالية فيها ربا وإن حقق نفعاً اقتصادياً.",
+            "en": "Blocking a financial dealing involving usury even if it offers economic gain.",
+            "fr": "Interdire une opération financière usuraire malgré un gain économique.",
+            "fa": "منع معامله مالی ربوی هرچند سود اقتصادی داشته باشد.",
+            "ms": "Menghalang urus niaga kewangan yang mengandungi riba walaupun membawa keuntungan ekonomi.",
+            "ur": "سودی مالی معاملہ روکنا اگرچہ اس میں اقتصادی فائدہ ہو۔"
+        },
+        "schools": "جميع المذاهب"
+    },
+    {
+        "name": {"ar": "ما لا يتم الواجب إلا به فهو واجب", "en": "What is necessary to fulfill a duty is itself obligatory", "fr": "Ce qui est nécessaire pour accomplir un devoir est lui-même obligatoire", "fa": "آنچه انجام واجب جز با آن ممکن نباشد خود واجب است", "ms": "Apa yang diperlukan untuk menyempurnakan kewajipan adalah wajib", "ur": "جو چیز واجب کو مکمل کرنے کے لیے ضروری ہے وہ خود واجب ہے"},
+        "definition": {
+            "ar": "كل وسيلة لا يتحقق أداء الواجب إلا بها، تأخذ حكم الوجوب تبعاً للواجب نفسه. متفق عليها عند جميع المذاهب.",
+            "en": "Whatever a duty depends on for its fulfillment is itself obligatory, as a means to that duty. Agreed upon by all schools.",
+            "fr": "Tout moyen indispensable à l'accomplissement d'une obligation devient lui-même obligatoire. Admise par toutes les écoles.",
+            "fa": "هر وسیله‌ای که انجام واجب جز با آن ممکن نباشد، خود آن وسیله نیز واجب می‌شود. مورد اتفاق همه مذاهب.",
+            "ms": "Setiap wasilah yang tanpanya sesuatu kewajipan tidak dapat disempurnakan, turut menjadi wajib. Dipersetujui oleh semua mazhab.",
+            "ur": "وہ ذریعہ جس کے بغیر کوئی واجب مکمل نہ ہو سکے، وہ خود بھی واجب کے تابع واجب بن جاتا ہے۔ تمام مذاہب کا متفقہ اصول۔"
+        },
+        "example": {
+            "ar": "تعلّم أحكام الطهارة والصلاة واجب؛ لأن صحة الصلاة الواجبة تتوقف عليه.",
+            "en": "Learning the rulings of purification and prayer is obligatory, since the validity of the obligatory prayer depends on it.",
+            "fr": "Apprendre les règles de la purification et de la prière est obligatoire, car la validité de la prière en dépend.",
+            "fa": "آموختن احکام طهارت و نماز واجب است؛ زیرا صحت نماز واجب بر آن متوقف است.",
+            "ms": "Mempelajari hukum bersuci dan solat adalah wajib, kerana sahnya solat wajib bergantung kepadanya.",
+            "ur": "طہارت اور نماز کے احکام سیکھنا واجب ہے؛ کیونکہ واجب نماز کی صحت اسی پر موقوف ہے۔"
+        },
+        "schools": "جميع المذاهب"
+    },
+    {
+        "name": {"ar": "إذا ضاق الأمر اتسع", "en": "When circumstances become constrained, ease widens", "fr": "Lorsque les circonstances deviennent contraignantes, la facilité s'élargit", "fa": "هرگاه کار تنگ شود، گشایش حاصل می‌شود", "ms": "Apabila keadaan menyempit, kemudahan diperluaskan", "ur": "جب معاملہ تنگ ہو تو وسعت ہو جاتی ہے"},
+        "definition": {
+            "ar": "إذا ضاقت الأحوال على المكلف في تطبيق الحكم الأصلي، اتسع له مجال الرخصة والتخفيف رفعاً للحرج. متفق عليها عند جميع المذاهب.",
+            "en": "When circumstances become constrained for the individual applying the default ruling, the scope of concession and ease widens to lift hardship. Agreed upon by all schools.",
+            "fr": "Lorsque les circonstances deviennent contraignantes pour l'individu appliquant le jugement initial, la marge de concession et de facilité s'élargit pour lever la difficulté. Admise par toutes les écoles.",
+            "fa": "هرگاه احوال مکلف در اجرای حکم اصلی تنگ شود، دامنه رخصت و تخفیف برای رفع حرج گسترده می‌شود. مورد اتفاق همه مذاهب.",
+            "ms": "Apabila keadaan menyempit bagi mukallaf dalam melaksanakan hukum asal, ruang keringanan dan kemudahan diperluaskan untuk mengangkat kesukaran. Dipersetujui oleh semua mazhab.",
+            "ur": "جب مکلف کے لیے اصل حکم پر عمل تنگ ہو جائے تو رخصت اور تخفیف کی گنجائش وسیع ہو جاتی ہے تاکہ حرج دور ہو۔ تمام مذاہب کا متفقہ اصول۔"
+        },
+        "example": {
+            "ar": "التيمم عند تعذّر الماء أو الخوف من ضرر استعماله.",
+            "en": "Performing tayammum (dry ablution) when water is unavailable or its use would cause harm.",
+            "fr": "Le tayammum (ablution sèche) lorsque l'eau est indisponible ou que son usage serait nuisible.",
+            "fa": "تیمم هنگام نبود آب یا بیم ضرر از استعمال آن.",
+            "ms": "Bertayamum apabila air tiada atau membahayakan.",
+            "ur": "پانی نہ ملنے یا اس کے استعمال سے نقصان کے خوف میں تیمم۔"
+        },
+        "schools": "جميع المذاهب"
+    },
+    {
+        "name": {"ar": "القياس", "en": "Analogy (Qiyas)", "fr": "Analogie (Qiyas)", "fa": "قیاس", "ms": "Qiyas", "ur": "قیاس"},
+        "definition": {
+            "ar": "إلحاق فرع بأصل في الحكم لعلة جامعة بينهما. معتمد عند المذاهب السنية والزيدية، ومرفوض عند الظاهرية ومقيد عند الجعفرية.",
+            "en": "Extending a ruling from an original case to a new case due to shared reasoning. Accepted by Sunni and Zaidi schools, rejected by Zahiri and restricted by Ja'fari.",
+            "fr": "Extension d'une règle d'un cas original à un nouveau cas en raison d'un raisonnement partagé. Accepté par les écoles sunnites et zaydites, rejeté par les zahirites et restreint par les jaafarites.",
+            "fa": "الحاق فرع به اصل در حکم به دلیل علت مشترک. مورد پذیرش مذاهب سنی و زیدی، رد شده در ظاهری و مقید در جعفری.",
+            "ms": "Memperluas hukum dari kes asal ke kes baru kerana persamaan sebab. Diterima oleh mazhab Sunni dan Zaidi, ditolak oleh Zahiri dan terhad dalam Jaafari.",
+            "ur": "حکم میں فرع کو اصل سے ملانا بوجہ مشترک علت۔ سنی اور زیدی مذاہب میں معتبر، ظاہری میں رد، جعفری میں مقید۔"
+        },
+        "example": {
+            "ar": "قياس المخدرات على الخمر في التحريم لعلة الإسكار.",
+            "en": "Analogizing drugs to alcohol in prohibition due to the reasoning of intoxication.",
+            "fr": "Analogie des drogues à l'alcool dans l'interdiction en raison de l'intoxication.",
+            "fa": "قیاس مواد مخدر بر خمر در تحریم به دلیل اسکار.",
+            "ms": "Menganalogikan dadah kepada arak dalam pengharaman kerana sebab memabukkan.",
+            "ur": "نشہ کی علت کی وجہ سے منشیات کو شراب پر قیاس کرنا۔"
+        },
+        "schools": "مالكي، شافعي، حنفي، حنبلي، زيدي (مع اختلاف في الشروط)"
+    },
+    {
+        "name": {"ar": "المصالح المرسلة", "en": "Considered public interest", "fr": "Intérêt public considéré", "fa": "مصالح مرسله", "ms": "Maslahah mursalah", "ur": "مصالح مرسلہ"},
+        "definition": {
+            "ar": "اعتبار المصلحة التي لم يرد نص خاص بها ولم تُلغَ، إذا كانت تحقق منفعة عامة. معتمد عند المالكية والحنابلة، ومرفوض عند الشافعية والظاهرية.",
+            "en": "Considering public interests not explicitly addressed in primary sources. Accepted by Maliki and Hanbali, rejected by Shafi'i and Zahiri.",
+            "fr": "Considération des intérêts publics non explicitement abordés dans les sources primaires. Accepté par les malikites et les hanbalites, rejeté par les chaféites et les zahirites.",
+            "fa": "اعتبار مصلحتی که نص خاصی برای آن نیامده است. مورد پذیرش مالکی و حنبلی، رد شده در شافعی و ظاهری.",
+            "ms": "Mempertimbangkan maslahah yang tidak disebut secara khusus. Diterima oleh Maliki dan Hanbali, ditolak oleh Syafie dan Zahiri.",
+            "ur": "ان مفادات کا اعتبار جن کا کوئی خاص نص نہیں۔ مالکی اور حنبلی میں معتبر، شافعی اور ظاہری میں رد۔"
+        },
+        "example": {
+            "ar": "توثيق العقود بالكتابة.",
+            "en": "Documenting contracts in writing.",
+            "fr": "Documenter les contrats par écrit.",
+            "fa": "مستند کردن قراردادها به نوشته.",
+            "ms": "Mendokumentasikan kontrak secara bertulis.",
+            "ur": "معاہدات کو تحریر میں دستاویز کرنا۔"
+        },
+        "schools": "مالكي، حنبلي"
+    },
+    {
+        "name": {"ar": "العرف", "en": "Custom (Urf)", "fr": "Coutume (Urf)", "fa": "عرف", "ms": "Urf", "ur": "عرف"},
+        "definition": {
+            "ar": "العرف هو ما تعارف عليه الناس واستمر العمل به، ويكون معتبراً في الأحكام ما لم يخالف نصاً شرعياً. معتمد عند جميع المذاهب.",
+            "en": "Custom is what people have agreed upon and continued to practice, and it is considered valid in rulings unless it contradicts a legal text. Accepted by all schools.",
+            "fr": "La coutume est ce sur quoi les gens se sont accordés et ont continué à pratiquer, et elle est considérée comme valable dans les décisions à moins qu'elle ne contredise un texte juridique. Acceptée par toutes les écoles.",
+            "fa": "عرف آن چیزی است که مردم بر آن توافق کرده و به انجام آن ادامه داده‌اند، و در احکام معتبر است مگر اینکه با نص شرعی مغایرت داشته باشد. مورد پذیرش همه مذاهب.",
+            "ms": "Urf adalah apa yang telah dipersetujui dan diamalkan oleh masyarakat, dan ia diiktiraf dalam hukum selagi tidak bercanggah dengan nas syarak. Diterima oleh semua mazhab.",
+            "ur": "عرف وہ ہے جس پر لوگوں کا اتفاق ہو اور اس پر عمل جاری ہو، اور یہ احکام میں معتبر ہے جب تک کہ کسی شرعی نص کی مخالفت نہ ہو۔ تمام مذاہب میں معتبر۔"
+        },
+        "example": {
+            "ar": "أعراف التجارة والمبايعات.",
+            "en": "Trade and transaction customs.",
+            "fr": "Coutumes commerciales et transactionnelles.",
+            "fa": "عرف‌های تجارت و معاملات.",
+            "ms": "Adat perniagaan dan urus niaga.",
+            "ur": "تجارت اور معاملات کے عرف۔"
+        },
+        "schools": "جميع المذاهب"
     }
 ]
