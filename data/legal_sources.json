@@ -1,0 +1,74 @@
+[
+    {
+        "name": {
+            "ar": "القرآن الكريم",
+            "en": "The Qur'an",
+            "fr": "Le Coran",
+            "fa": "قرآن کریم",
+            "ms": "Al-Quran",
+            "ur": "قرآن کریم"
+        },
+        "description": {
+            "ar": "المصدر الأعلى والأول للتشريع الإسلامي، وهو كلام الله المنزل على نبيه محمد ﷺ.",
+            "en": "The primary and highest source of Islamic law, the word of God revealed to Prophet Muhammad ﷺ.",
+            "fr": "La première et la plus haute source du droit islamique, la parole de Dieu révélée au Prophète Muhammad ﷺ.",
+            "fa": "منبع برتر و اولیه شریعت اسلامی، کلام خداوند نازل شده بر پیامبر محمد ﷺ.",
+            "ms": "Sumber tertinggi dan utama undang-undang Islam, firman Allah yang diturunkan kepada Nabi Muhammad ﷺ.",
+            "ur": "شریعت اسلامی کا اعلیٰ ترین اور اولیٰ ترین ماخذ، اللہ کا کلام جو نبی محمد ﷺ پر نازل ہوا۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "السنة النبوية",
+            "en": "Prophetic Sunnah",
+            "fr": "La Sunna prophétique",
+            "fa": "سنت نبوی",
+            "ms": "Sunnah Nabi",
+            "ur": "سنت نبوی"
+        },
+        "description": {
+            "ar": "أقوال النبي ﷺ وأفعاله وتقريراته، وهي المصدر الثاني بعد القرآن.",
+            "en": "The sayings, actions, and approvals of the Prophet ﷺ, the second source after the Qur'an.",
+            "fr": "Les paroles, actes et approbations du Prophète ﷺ, la deuxième source après le Coran.",
+            "fa": "گفتار، کردار و تقریرات پیامبر ﷺ، منبع دوم پس از قرآن.",
+            "ms": "Perkataan, perbuatan dan persetujuan Nabi ﷺ, sumber kedua selepas al-Quran.",
+            "ur": "نبی ﷺ کے اقوال، افعال اور تقریرات، قرآن کے بعد دوسرا ماخذ۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "الإجماع",
+            "en": "Ijma' (Consensus)",
+            "fr": "Ijma' (Consensus)",
+            "fa": "اجماع",
+            "ms": "Ijma'",
+            "ur": "اجماع"
+        },
+        "description": {
+            "ar": "اتفاق المجتهدين من أمة محمد ﷺ في عصر من العصور على حكم شرعي بعد وفاة النبي ﷺ.",
+            "en": "The agreement of qualified jurists from the Muslim community in any era on a legal ruling after the Prophet's death.",
+            "fr": "L'accord des juristes qualifiés de la communauté musulmane à une époque donnée sur une règle juridique après la mort du Prophète.",
+            "fa": "اتفاق مجتهدان امت محمد ﷺ در عصری بر حکم شرعی پس از وفات پیامبر.",
+            "ms": "Persetujuan ulama mujtahid daripada umat Islam dalam sesuatu zaman terhadap hukum syarak selepas kewafatan Nabi.",
+            "ur": "امت محمد ﷺ کے مجتہدین کا کسی دور میں کسی شرعی حکم پر اتفاق، نبی کی وفات کے بعد۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "القياس",
+            "en": "Qiyas (Analogy)",
+            "fr": "Qiyas (Analogie)",
+            "fa": "قیاس",
+            "ms": "Qiyas",
+            "ur": "قیاس"
+        },
+        "description": {
+            "ar": "إلحاق مسألة جديدة ليس لها نص بمسألة منصوص عليها لاشتراكهما في العلة الموجبة للحكم.",
+            "en": "Applying an established ruling to a new case without a text due to a shared effective cause.",
+            "fr": "L'application d'une règle connue à un cas nouveau sans texte en raison d'une cause commune.",
+            "fa": "الحاق مسئله جدید بدون نص به مسئله منصوص به دلیل اشتراک در علت.",
+            "ms": "Menghubungkan kes baru tanpa nas kepada kes yang telah ada nas kerana persamaan sebab.",
+            "ur": "کسی نئے مسئلہ کو جس کا کوئی نص نہیں، کسی منصوص مسئلہ سے ملانا بوجہ مشترک علت۔"
+        }
+    }
+]
