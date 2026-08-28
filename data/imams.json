@@ -90,4 +90,265 @@
     {
         "name": {
             "ar": "الإمام محمد بن إدريس الشافعي",
-            "en": "Imam Muhammad
+            "en": "Imam Muhammad ibn Idris al-Shafi'i",
+            "fr": "Imam Muhammad ibn Idris al-Chafi'i",
+            "fa": "امام محمد بن ادریس شافعی",
+            "ms": "Imam Muhammad bin Idris al-Syafie",
+            "ur": "امام محمد بن ادریس شافعی"
+        },
+        "school": "shafii",
+        "lifespan": "150 - 204 AH (767 - 820 CE)",
+        "birthplace": {
+            "ar": "غزة - فلسطين",
+            "en": "Gaza - Palestine",
+            "fr": "Gaza - Palestine",
+            "fa": "غزه - فلسطین",
+            "ms": "Gaza - Palestin",
+            "ur": "غزہ - فلسطین"
+        },
+        "founding_place": {
+            "ar": "بغداد ثم مصر (المذهب الجديد)",
+            "en": "Baghdad, then Egypt (the new doctrine)",
+            "fr": "Bagdad, puis l'Égypte (la nouvelle doctrine)",
+            "fa": "بغداد سپس مصر (مذهب جدید)",
+            "ms": "Baghdad, kemudian Mesir (mazhab baru)",
+            "ur": "بغداد پھر مصر (نیا مذہب)"
+        },
+        "scholars": {
+            "ar": "المزني، البويطي، النووي، ابن حجر الهيتمي، الرافعي",
+            "en": "al-Muzani, al-Buwayti, al-Nawawi, Ibn Hajar al-Haytami, al-Rafi'i",
+            "fr": "al-Muzani, al-Buwayti, al-Nawawi, Ibn Hajar al-Haytami, al-Rafi'i",
+            "fa": "مزنی، بویطی، نووی، ابن حجر هیتمی، رافعی",
+            "ms": "al-Muzani, al-Buwayti, al-Nawawi, Ibn Hajar al-Haytami, al-Rafi'i",
+            "ur": "المزني، البويطي، النووي، ابن حجر الهيتمي، الرافعي"
+        },
+        "summary": {
+            "ar": "صاحب الرسالة، المؤسس لعلم أصول الفقه. اشتهر بالجمع بين الرأي والحديث. مذهبه ينتشر في مصر، الشام، الحجاز، جنوب شرق آسيا، وشرق أفريقيا.",
+            "en": "Author of the Risala, the founder of the science of legal theory (Usul al-fiqh). Known for combining reason and hadith. His school is widespread in Egypt, the Levant, Hejaz, Southeast Asia, and East Africa.",
+            "fr": "Auteur du Risala, le fondateur de la science des fondements du droit (Usul al-fiqh). Connu pour combiner la raison et le hadith. Son école est répandue en Égypte, au Levant, au Hedjaz, en Asie du Sud-Est et en Afrique de l'Est.",
+            "fa": "صاحب الرسالة، بنیان‌گذار علم اصول فقه. به جمع بین رأی و حدیث شهرت دارد. مذهب او در مصر، شام، حجاز، جنوب شرق آسیا و شرق آفریقا گسترده است.",
+            "ms": "Pengarang al-Risalah, pengasas ilmu Usul al-Fiqh. Terkenal menggabungkan akal dan hadis. Mazhabnya tersebar di Mesir, Syam, Hijaz, Asia Tenggara dan Afrika Timur.",
+            "ur": "الرسالة کے مصنف، علم اصول فقہ کے بانی۔ رأی و حدیث کے امتزاج کے لیے مشہور۔ ان کا مذہب مصر، شام، حجاز، جنوب مشرقی ایشیا اور مشرقی افریقہ میں پھیلا ہوا ہے۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "الإمام أحمد بن حنبل الشيباني",
+            "en": "Imam Ahmad ibn Hanbal al-Shaybani",
+            "fr": "Imam Ahmad ibn Hanbal al-Shaybani",
+            "fa": "امام احمد بن حنبل شیبانی",
+            "ms": "Imam Ahmad bin Hanbal al-Shaybani",
+            "ur": "امام احمد بن حنبل شیبانی"
+        },
+        "school": "hanbali",
+        "lifespan": "164 - 241 AH (780 - 855 CE)",
+        "birthplace": {
+            "ar": "بغداد - العراق",
+            "en": "Baghdad - Iraq",
+            "fr": "Bagdad - Irak",
+            "fa": "بغداد - عراق",
+            "ms": "Baghdad - Iraq",
+            "ur": "بغداد - عراق"
+        },
+        "founding_place": {
+            "ar": "بغداد - العراق",
+            "en": "Baghdad - Iraq",
+            "fr": "Bagdad - Irak",
+            "fa": "بغداد - عراق",
+            "ms": "Baghdad - Iraq",
+            "ur": "بغداد - عراق"
+        },
+        "scholars": {
+            "ar": "أبو بكر الخلال، ابن تيمية، ابن القيم الجوزية، ابن رجب الحنبلي",
+            "en": "Abu Bakr al-Khallal, Ibn Taymiyya, Ibn Qayyim al-Jawziyya, Ibn Rajab al-Hanbali",
+            "fr": "Abu Bakr al-Khallal, Ibn Taymiyya, Ibn Qayyim al-Jawziyya, Ibn Rajab al-Hanbali",
+            "fa": "ابو بکر خلال، ابن تیمیه، ابن قیم جوزیه، ابن رجب حنبلی",
+            "ms": "Abu Bakr al-Khallal, Ibn Taymiyya, Ibn Qayyim al-Jawziyya, Ibn Rajab al-Hanbali",
+            "ur": "ابو بکر الخلال، ابن تیمیہ، ابن القیم الجوزیہ، ابن رجب الحنبلی"
+        },
+        "summary": {
+            "ar": "صاحب المسند، اشتهر بالحديث والورع والتشدد في اتباع النص. مذهبه ينتشر في السعودية، قطر، وشرق الجزيرة العربية.",
+            "en": "Author of the Musnad, known for his knowledge of hadith, piety, and strict adherence to texts. His school is widespread in Saudi Arabia, Qatar, and the eastern Arabian Peninsula.",
+            "fr": "Auteur du Musnad, connu pour sa connaissance du hadith, sa piété et son adhésion stricte aux textes. Son école est répandue en Arabie saoudite, au Qatar et dans l'est de la péninsule arabique.",
+            "fa": "صاحب المسند، به حدیث، ورع و سخت‌گیری در پیروی از نص شهرت دارد. مذهب او در عربستان سعودی، قطر و شرق شبه جزیره عربستان گسترده است.",
+            "ms": "Pengarang Musnad, terkenal dengan ilmu hadis, ketakwaan dan ketegasan dalam mengikut nas. Mazhabnya tersebar di Arab Saudi, Qatar dan timur Semenanjung Arab.",
+            "ur": "مسند کے مصنف، حدیث، ورع اور نص کی پابندی کے لیے مشہور۔ ان کا مذہب سعودی عرب، قطر اور مشرقی جزیرہ نما عرب میں پھیلا ہوا ہے۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "الإمام داود بن علي الظاهري",
+            "en": "Imam Dawud ibn Ali al-Zahiri",
+            "fr": "Imam Dawud ibn Ali al-Zahiri",
+            "fa": "امام داود بن علی ظاهری",
+            "ms": "Imam Dawud bin Ali al-Zahiri",
+            "ur": "امام داود بن علی الظاہری"
+        },
+        "school": "zahiri",
+        "lifespan": "202 - 270 AH (817 - 884 CE)",
+        "birthplace": {
+            "ar": "بغداد - العراق",
+            "en": "Baghdad - Iraq",
+            "fr": "Bagdad - Irak",
+            "fa": "بغداد - عراق",
+            "ms": "Baghdad - Iraq",
+            "ur": "بغداد - عراق"
+        },
+        "founding_place": {
+            "ar": "بغداد - العراق",
+            "en": "Baghdad - Iraq",
+            "fr": "Bagdad - Irak",
+            "fa": "بغداد - عراق",
+            "ms": "Baghdad - Iraq",
+            "ur": "بغداد - عراق"
+        },
+        "scholars": {
+            "ar": "ابن حزم الظاهري (الأندلس)، ابن العربي المالكي (بالنسبة لبعض آرائه)",
+            "en": "Ibn Hazm al-Zahiri (Andalusia), Ibn al-Arabi al-Maliki (for some of his views)",
+            "fr": "Ibn Hazm al-Zahiri (Andalousie), Ibn al-Arabi al-Maliki (pour certaines de ses opinions)",
+            "fa": "ابن حزم ظاهری (اندلس)، ابن عربی مالکی (نسبت به برخی آرای او)",
+            "ms": "Ibn Hazm al-Zahiri (Andalusia), Ibn al-Arabi al-Maliki (untuk beberapa pandangannya)",
+            "ur": "ابن حزم الظاہری (اندلس)، ابن العربی المالکی (بعض آراء کے حوالے سے)"
+        },
+        "summary": {
+            "ar": "مؤسس المذهب الظاهري، الذي يعتمد على ظاهر النصوص دون قياس أو رأي. مذهبه انتشر في الأندلس وله حضور محدود اليوم.",
+            "en": "Founder of the Zahiri school, which relies on the apparent meaning of texts without analogy or personal opinion. His school spread in Andalusia and has a limited presence today.",
+            "fr": "Fondateur de l'école zahirite, qui s'appuie sur le sens apparent des textes sans analogie ni opinion personnelle. Son école s'est répandue en Andalousie et a une présence limitée aujourd'hui.",
+            "fa": "بنیان‌گذار مذهب ظاهری که بر ظاهر نصوص بدون قیاس و رأی تکیه دارد. مذهب او در اندلس گسترش یافت و امروزه حضور محدودی دارد.",
+            "ms": "Pengasas mazhab Zahiri yang bergantung kepada makna zahir nas tanpa qiyas atau pendapat peribadi. Mazhabnya tersebar di Andalusia dan mempunyai kehadiran terhad hari ini.",
+            "ur": "مذہب ظاہری کے بانی، جو نصوص کے ظاہری معنی پر قیاس و رأی کے بغیر اعتماد کرتا ہے۔ ان کا مذہب اندلس میں پھیلا اور آج محدود موجودگی رکھتا ہے۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "الإمام جعفر بن محمد الصادق",
+            "en": "Imam Ja'far ibn Muhammad al-Sadiq",
+            "fr": "Imam Ja'far ibn Muhammad al-Sadiq",
+            "fa": "امام جعفر بن محمد صادق",
+            "ms": "Imam Ja'far bin Muhammad al-Sadiq",
+            "ur": "امام جعفر بن محمد الصادق"
+        },
+        "school": "jafari",
+        "lifespan": "80 - 148 AH (699 - 765 CE)",
+        "birthplace": {
+            "ar": "المدينة المنورة",
+            "en": "Medina",
+            "fr": "Médine",
+            "fa": "مدینه منوره",
+            "ms": "Madinah",
+            "ur": "مدینہ منورہ"
+        },
+        "founding_place": {
+            "ar": "المدينة المنورة",
+            "en": "Medina",
+            "fr": "Médine",
+            "fa": "مدینه منوره",
+            "ms": "Madinah",
+            "ur": "مدینہ منورہ"
+        },
+        "scholars": {
+            "ar": "الشيخ المفيد، الشريف المرتضى، الشيخ الطوسي، السيد الخوئي",
+            "en": "Shaykh al-Mufid, Sharif al-Murtada, Shaykh al-Tusi, Sayyid al-Khui",
+            "fr": "Shaykh al-Mufid, Sharif al-Murtada, Shaykh al-Tusi, Sayyid al-Khui",
+            "fa": "شیخ مفید، شریف مرتضی، شیخ طوسی، سید خویی",
+            "ms": "Shaykh al-Mufid, Sharif al-Murtada, Shaykh al-Tusi, Sayyid al-Khui",
+            "ur": "الشیخ المفید، الشریف المرتضی، الشیخ الطوسی، السید الخوئی"
+        },
+        "summary": {
+            "ar": "إمام الشيعة الإمامية الاثني عشرية، ومؤسس المذهب الجعفري. يتميز بالجمع بين النقل والعقل. مذهبه هو المذهب الرسمي في إيران والعراق ولبنان والبحرين.",
+            "en": "The Imam of the Twelver Shia, and founder of the Ja'fari school. Characterized by combining tradition and reason. His school is the official school in Iran, Iraq, Lebanon, and Bahrain.",
+            "fr": "L'imam des chiites duodécimains, et fondateur de l'école jaafarite. Caractérisé par la combinaison de la tradition et de la raison. Son école est l'école officielle en Iran, en Irak, au Liban et à Bahreïn.",
+            "fa": "امام شیعیان اثنی عشری و بنیان‌گذار مذهب جعفری. با ترکیب نقل و عقل مشخص می‌شود. مذهب او مذهب رسمی ایران، عراق، لبنان و بحرین است.",
+            "ms": "Imam Syiah Imamiyyah Itsna' Ashariyyah, dan pengasas mazhab Jaafari. Dicirikan dengan menggabungkan naqal dan akal. Mazhabnya adalah mazhab rasmi di Iran, Iraq, Lubnan dan Bahrain.",
+            "ur": "شیعہ اثنا عشریہ کے امام اور مذہب جعفری کے بانی۔ نقل و عقل کے امتزاج کی خصوصیت۔ ان کا مذہب ایران، عراق، لبنان اور بحرین کا سرکاری مذہب ہے۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "الإمام زيد بن علي بن الحسين",
+            "en": "Imam Zayd ibn Ali ibn al-Husayn",
+            "fr": "Imam Zayd ibn Ali ibn al-Husayn",
+            "fa": "امام زید بن علی بن حسین",
+            "ms": "Imam Zayd bin Ali bin al-Husayn",
+            "ur": "امام زید بن علی بن الحسین"
+        },
+        "school": "zaidi",
+        "lifespan": "80 - 122 AH (699 - 740 CE)",
+        "birthplace": {
+            "ar": "المدينة المنورة",
+            "en": "Medina",
+            "fr": "Médine",
+            "fa": "مدینه منوره",
+            "ms": "Madinah",
+            "ur": "مدینہ منورہ"
+        },
+        "founding_place": {
+            "ar": "الكوفة - العراق",
+            "en": "Kufa - Iraq",
+            "fr": "Koufa - Irak",
+            "fa": "کوفه - عراق",
+            "ms": "Kufah - Iraq",
+            "ur": "کوفہ - عراق"
+        },
+        "scholars": {
+            "ar": "أبو خالد عمرو بن خالد الواسطي، القاسم بن إبراهيم الرسي، يحيى بن الحسين",
+            "en": "Abu Khalid Amr ibn Khalid al-Wasiti, al-Qasim ibn Ibrahim al-Rassi, Yahya ibn al-Husayn",
+            "fr": "Abu Khalid Amr ibn Khalid al-Wasiti, al-Qasim ibn Ibrahim al-Rassi, Yahya ibn al-Husayn",
+            "fa": "ابو خالد عمرو بن خالد واسطی، قاسم بن ابراهیم رسی، یحیی بن حسین",
+            "ms": "Abu Khalid Amr ibn Khalid al-Wasiti, al-Qasim ibn Ibrahim al-Rassi, Yahya ibn al-Husayn",
+            "ur": "ابو خالد عمرو بن خالد الواسطي، القاسم بن إبراهيم الرسي، يحيى بن الحسين"
+        },
+        "summary": {
+            "ar": "إمام الزيدية، ويمثل المذهب القريب من أهل السنة في كثير من المسائل مع توجه سياسي. مذهبه ينتشر في اليمن.",
+            "en": "The Imam of Zaydism, representing a school close to Sunni thought on many issues with a political orientation. His school is widespread in Yemen.",
+            "fr": "L'imam du zaydisme, représentant une école proche de la pensée sunnite sur de nombreuses questions avec une orientation politique. Son école est répandue au Yémen.",
+            "fa": "امام زیدیه، مذهبی نزدیک به اهل سنت در بسیاری از مسائل با گرایش سیاسی. مذهب او در یمن گسترده است.",
+            "ms": "Imam Zaidiyyah, mewakili mazhab yang dekat dengan pemikiran Sunni dalam banyak isu dengan orientasi politik. Mazhabnya tersebar di Yaman.",
+            "ur": "زیدیہ کے امام، جو کئی مسائل میں اہل سنت کے قریب مذہب کی نمائندگی کرتے ہیں۔ ان کا مذہب یمن میں پھیلا ہوا ہے۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "الإمام جابر بن زيد الأزدي",
+            "en": "Imam Jabir ibn Zayd al-Azdi",
+            "fr": "Imam Jabir ibn Zayd al-Azdi",
+            "fa": "امام جابر بن زید ازدی",
+            "ms": "Imam Jabir bin Zayd al-Azdi",
+            "ur": "امام جابر بن زید الازدی"
+        },
+        "school": "ibadi",
+        "lifespan": "18 - 93 AH (639 - 712 CE)",
+        "birthplace": {
+            "ar": "نزوى - عُمان",
+            "en": "Nizwa - Oman",
+            "fr": "Nizwa - Oman",
+            "fa": "نزوی - عمان",
+            "ms": "Nizwa - Oman",
+            "ur": "نزوی - عمان"
+        },
+        "founding_place": {
+            "ar": "البصرة ثم عُمان",
+            "en": "Basra, then Oman",
+            "fr": "Bassorah, puis Oman",
+            "fa": "بصره سپس عمان",
+            "ms": "Basrah, kemudian Oman",
+            "ur": "بصرہ پھر عمان"
+        },
+        "scholars": {
+            "ar": "أبو عبيدة مسلم بن أبي كريمة، الربيع بن حبيب، أبو سفيان محبوب بن الرحيل",
+            "en": "Abu Ubayda Muslim ibn Abi Karima, al-Rabi' ibn Habib, Abu Sufyan Mahbub ibn al-Rahil",
+            "fr": "Abu Ubayda Muslim ibn Abi Karima, al-Rabi' ibn Habib, Abu Sufyan Mahbub ibn al-Rahil",
+            "fa": "ابو عبیده مسلم بن ابی کریمه، ربیع بن حبیب، ابو سفیان محبوب بن رحیل",
+            "ms": "Abu Ubayda Muslim ibn Abi Karima, al-Rabi' ibn Habib, Abu Sufyan Mahbub ibn al-Rahil",
+            "ur": "ابو عبيدة مسلم بن أبي كريمة، الربيع بن حبيب، أبو سفيان محبوب بن الرحيل"
+        },
+        "summary": {
+            "ar": "إمام الإباضية، وهو تابعي ومحدث. يتميز مذهبه بالاعتدال والوسطية. المذهب الرسمي في عُمان، وله وجود في زنجبار، الجزائر، وليبيا.",
+            "en": "The Imam of Ibadism, a tabi'i and hadith scholar. His school is characterized by moderation and centrism. It is the official school in Oman, and has a presence in Zanzibar, Algeria, and Libya.",
+            "fr": "L'imam de l'ibadisme, un tabi'i et savant du hadith. Son école se caractérise par la modération et le centrisme. C'est l'école officielle à Oman, et elle est présente à Zanzibar, en Algérie et en Libye.",
+            "fa": "امام اباضیه، تابعی و محدث. مذهب او با اعتدال و میانه‌روی مشخص می‌شود. مذهب رسمی در عمان و دارای حضور در زنگبار، الجزایر و لیبی است.",
+            "ms": "Imam Ibadhiyyah, seorang tabi'in dan ahli hadis. Mazhabnya dicirikan dengan kesederhanaan dan keseimbangan. Mazhab rasmi di Oman, dan hadir di Zanzibar, Algeria dan Libya.",
+            "ur": "اباضیہ کے امام، تابعی اور محدث۔ ان کا مذہب اعتدال اور میانہ روی کی خصوصیت رکھتا ہے۔ عمان کا سرکاری مذہب اور زنجبار، الجزائر اور لیبیا میں موجود ہے۔"
+        }
+    }
+]
