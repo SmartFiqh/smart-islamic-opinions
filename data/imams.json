@@ -1,0 +1,12 @@
+[
+    {
+        "name": {
+            "ar": "الإمام أبو حنيفة النعمان بن ثابت",
+            "en": "Imam Abu Hanifa al-Nu'man ibn Thabit"
+        },
+        "school": "hanafi",
+        "lifespan": "80 - 150 AH",
+        "birthplace": {"ar": "الكوفة - العراق", "en": "Kufa - Iraq"},
+        "scholars": {"ar": "أبو يوسف، محمد بن الحسن الشيباني", "en": "Abu Yusuf, Muhammad al-Shaybani"}
+    }
+]
