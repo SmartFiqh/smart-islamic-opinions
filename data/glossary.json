@@ -1,7 +1,262 @@
 [
     {
-        "term": {"ar": "الفرض", "en": "Fard"},
-        "definition": {"ar": "ما طلب الشارع فعله طلباً جازماً", "en": "What the Lawgiver has decisively commanded"},
-        "example": {"ar": "الصلوات الخمس", "en": "The five daily prayers"}
+        "term": {
+            "ar": "الفرض / فرض العين",
+            "en": "Fard / Fard Ayn (Individual Obligation)",
+            "fr": "Le fard / fard ayn (Obligation individuelle)",
+            "fa": "فرض / فرض عین",
+            "ms": "Fardu / Fardu Ain",
+            "ur": "فرض / فرض عین"
+        },
+        "definition": {
+            "ar": "ما طلب الشارع فعله طلباً جازماً من كل مكلف بعينه، يُثاب فاعله ويُعاقب تاركه.",
+            "en": "What the Lawgiver has decisively commanded every legally accountable individual to perform; one who does it is rewarded, and one who abandons it is sinful.",
+            "fr": "Ce que le Législateur a ordonné de façon décisive à tout individu responsable d'accomplir ; celui qui l'accomplit est récompensé, et celui qui l'abandonne est fautif.",
+            "fa": "آنچه شارع به‌طور قطعی بر هر مکلفی واجب کرده است؛ انجام‌دهنده پاداش می‌گیرد و ترک‌کننده گناهکار است.",
+            "ms": "Apa yang Pembuat Syariat telah perintahkan secara tegas kepada setiap individu yang bertanggungjawab untuk melaksanakannya; yang melaksanakannya diberi pahala, dan yang meninggalkannya berdosa.",
+            "ur": "وہ چیز جسے شارع نے ہر مکلف پر قطعی طور پر واجب کیا ہے؛ اسے کرنے والا ثواب پاتا ہے اور چھوڑنے والا گنہگار ہے۔"
+        },
+        "example": {
+            "ar": "الصلوات الخمس، الزكاة.",
+            "en": "The five daily prayers; zakat.",
+            "fr": "Les cinq prières quotidiennes ; la zakat.",
+            "fa": "نمازهای پنج‌گانه، زکات.",
+            "ms": "Solat lima waktu, zakat.",
+            "ur": "پانچ وقت کی نمازیں، زکوٰۃ۔"
+        }
+    },
+    {
+        "term": {
+            "ar": "فرض الكفاية",
+            "en": "Fard Kifayah (Sufficiency Obligation)",
+            "fr": "Fard kifayah (Obligation de suffisance)",
+            "fa": "فرض کفایه",
+            "ms": "Fardu Kifayah",
+            "ur": "فرض کفایہ"
+        },
+        "definition": {
+            "ar": "ما طلب الشارع فعله طلباً جازماً من المجموعة دون كل فرد بعينه، فإذا قام به البعض سقط الإثم عن الباقين، وإن تركه الجميع أثموا.",
+            "en": "A collective obligation which, if performed by some, absolves others; if abandoned by all, all are sinful.",
+            "fr": "Une obligation collective qui, si elle est accomplie par certains, dispense les autres ; si tous l'abandonnent, tous sont fautifs.",
+            "fa": "تکلیف جمعی که اگر عده‌ای آن را انجام دهند، از دیگران ساقط می‌شود و اگر همه ترک کنند، همه گناهکارند.",
+            "ms": "Kewajipan kolektif yang jika dilakukan oleh sebahagian, gugur ke atas yang lain; jika ditinggalkan semua, semua berdosa.",
+            "ur": "ایک اجتماعی فریضہ جو اگر کچھ لوگ ادا کریں تو باقیوں سے ساقط ہو جاتا ہے، اور اگر سب چھوڑ دیں تو سب گنہگار ہیں۔"
+        },
+        "example": {
+            "ar": "صلاة الجنازة، تعلم الطب.",
+            "en": "The funeral prayer; training enough doctors.",
+            "fr": "La prière funéraire ; former suffisamment de médecins.",
+            "fa": "نماز جنازه، آموختن پزشکی.",
+            "ms": "Solat jenazah, mempelajari perubatan.",
+            "ur": "نماز جنازہ، طب کی تعلیم۔"
+        }
+    },
+    {
+        "term": {
+            "ar": "الواجب",
+            "en": "Wajib (Obligatory)",
+            "fr": "Wajib (Obligatoire)",
+            "fa": "واجب",
+            "ms": "Wajib",
+            "ur": "واجب"
+        },
+        "definition": {
+            "ar": "ما طلب الشارع فعله طلباً جازماً غير أنه لا يصل إلى درجة الفرض، ويُثاب فاعله ويعاقب تاركه عند الحنفية، وعند الجمهور هو بمعنى الفرض.",
+            "en": "What the Lawgiver has commanded decisively but not reaching the level of Fard; rewarded for doing, punished for abandoning (according to Hanafis; for the majority, it is synonymous with Fard).",
+            "fr": "Ce que le Législateur a ordonné de façon décisive mais n'atteignant pas le niveau de Fard ; récompensé pour l'accomplissement, puni pour l'abandon (selon les Hanafites ; pour la majorité, c'est synonyme de Fard).",
+            "fa": "آنچه شارع به طور قطعی دستور داده اما به درجه فرض نمی‌رسد؛ انجام‌دهنده پاداش می‌گیرد و ترک‌کننده مجازات می‌شود (نزد حنفیه).",
+            "ms": "Apa yang Pembuat Syariat telah perintahkan secara tegas tetapi tidak mencapai tahap Fardu; diberi pahala jika dilakukan, dihukum jika ditinggalkan (menurut Hanafi; bagi majoriti, ia sinonim dengan Fardu).",
+            "ur": "وہ چیز جسے شارع نے قطعی طور پر حکم دیا ہے لیکن فرض کی سطح تک نہیں پہنچتی؛ کرنے والا ثواب پاتا ہے اور چھوڑنے والا سزا پاتا ہے (حنفیہ کے نزدیک؛ جمہور کے نزدیک یہ فرض کے مترادف ہے)۔"
+        },
+        "example": {
+            "ar": "صلاة الوتر عند الحنفية.",
+            "en": "The witr prayer according to Hanafis.",
+            "fr": "La prière du witr selon les hanafites.",
+            "fa": "نماز وتر نزد حنفیان.",
+            "ms": "Solat witir menurut Hanafi.",
+            "ur": "احناف کے نزدیک وتر کی نماز۔"
+        }
+    },
+    {
+        "term": {
+            "ar": "المستحب / المندوب",
+            "en": "Mustahabb / Mandub (Recommended)",
+            "fr": "Mustahabb / Mandub (Recommandé)",
+            "fa": "مستحب / مندوب",
+            "ms": "Mustahabb / Mandub",
+            "ur": "مستحب / مندوب"
+        },
+        "definition": {
+            "ar": "ما طلب الشارع فعله طلباً غير جازم، يُثاب فاعله ولا يُعاقب تاركه.",
+            "en": "What the Lawgiver has recommended without decisiveness; rewarded for doing, not punished for abandoning.",
+            "fr": "Ce que le Législateur a recommandé sans caractère décisif ; récompensé pour l'accomplissement, non puni pour l'abandon.",
+            "fa": "آنچه شارع به طور غیر قطعی دستور داده؛ انجام‌دهنده پاداش می‌گیرد و ترک‌کننده مجازات نمی‌شود.",
+            "ms": "Apa yang Pembuat Syariat telah syorkan tanpa ketegasan; diberi pahala jika dilakukan, tidak dihukum jika ditinggalkan.",
+            "ur": "وہ چیز جسے شارع نے غیر قطعی طور پر پسند کیا ہے؛ کرنے والا ثواب پاتا ہے، چھوڑنے والا سزا نہیں پاتا۔"
+        },
+        "example": {
+            "ar": "صلاة الضحى، صيام الاثنين والخميس.",
+            "en": "The mid-morning (Duha) prayer; fasting on Mondays and Thursdays.",
+            "fr": "La prière de Doha ; le jeûne du lundi et jeudi.",
+            "fa": "نماز ضحی، روزه دوشنبه و پنجشنبه.",
+            "ms": "Solat Dhuha, puasa Isnin dan Khamis.",
+            "ur": "نماز چاشت، پیر اور جمعرات کا روزہ۔"
+        }
+    },
+    {
+        "term": {
+            "ar": "السنة",
+            "en": "Sunnah",
+            "fr": "Sunna",
+            "fa": "سنت",
+            "ms": "Sunat",
+            "ur": "سنت"
+        },
+        "definition": {
+            "ar": "ما ثبت عن النبي ﷺ من قول أو فعل أو تقرير، وهي تشمل الواجب والمستحب والمباح، وتُطلق غالباً على المستحب.",
+            "en": "What is established from the Prophet ﷺ of sayings, actions, or approvals; it includes obligations, recommendations, and permissibles, and is often used for recommended acts.",
+            "fr": "Ce qui est établi du Prophète ﷺ en paroles, actes ou approbations ; cela inclut les obligations, les recommandations et les permissibles, et est souvent utilisé pour les actes recommandés.",
+            "fa": "آنچه از پیامبر ﷺ از قول، فعل یا تقریر ثابت شده است؛ شامل واجبات، مستحبات و مباحات می‌شود و اغلب برای مستحبات به کار می‌رود.",
+            "ms": "Apa yang ditetapkan daripada Nabi ﷺ daripada perkataan, perbuatan atau persetujuan; ia termasuk kewajipan, galakan dan harus, dan sering digunakan untuk amalan yang digalakkan.",
+            "ur": "وہ چیز جو نبی ﷺ سے قول، فعل یا تقریر کے طور پر ثابت ہے؛ اس میں واجبات، مستحبات اور مباحات شامل ہیں، اور اکثر مستحبات کے لیے استعمال ہوتی ہے۔"
+        },
+        "example": {
+            "ar": "السواك عند الوضوء، الأذكار بعد الصلاة.",
+            "en": "Using the miswak during ablution; remembrance (adhkar) after prayer.",
+            "fr": "Le siwak lors des ablutions ; les invocations après la prière.",
+            "fa": "مسواک هنگام وضو، اذکار پس از نماز.",
+            "ms": "Bersiwak ketika berwuduk, zikir selepas solat.",
+            "ur": "وضو کے وقت مسواک، نماز کے بعد اذکار۔"
+        }
+    },
+    {
+        "term": {
+            "ar": "السنة المؤكدة",
+            "en": "Sunnah Mu'akkadah (Emphasized Sunnah)",
+            "fr": "Sunnah mu'akkadah (Sunnah confirmée)",
+            "fa": "سنت مؤکد",
+            "ms": "Sunat Muakkad",
+            "ur": "سنت مؤکدہ"
+        },
+        "definition": {
+            "ar": "ما واظب عليه النبي ﷺ ولم يتركه إلا نادراً، وهي قريبة من الواجب في الأهمية، وتركها مكروه عند بعض الفقهاء.",
+            "en": "What the Prophet ﷺ consistently performed and rarely abandoned; it is close to obligatory in importance, and abandoning it is disliked by some jurists.",
+            "fr": "Ce que le Prophète ﷺ a accompli régulièrement et rarement abandonné ; il est proche de l'obligation en importance, et son abandon est détesté par certains juristes.",
+            "fa": "آنچه پیامبر ﷺ به طور مداوم انجام می‌داد و به ندرت ترک می‌کرد؛ از نظر اهمیت نزدیک به واجب است و ترک آن نزد برخی فقها مکروه است.",
+            "ms": "Apa yang Nabi ﷺ lakukan secara konsisten dan jarang ditinggalkan; ia hampir kepada kewajipan dari segi kepentingan, dan meninggalkannya adalah makruh bagi sesetengah ulama.",
+            "ur": "وہ چیز جو نبی ﷺ نے مستقل طور پر کی اور شاذ و نادر ہی چھوڑی؛ یہ اہمیت میں واجب کے قریب ہے، اور اسے چھوڑنا بعض فقہاء کے نزدیک مکروہ ہے۔"
+        },
+        "example": {
+            "ar": "ركعتا الفجر، الوتر عند الجمهور (واجب عند الحنفية).",
+            "en": "The two rak'ahs before Fajr; witr prayer (obligatory according to the Hanafis).",
+            "fr": "Les deux rak'ahs avant Fajr ; le witr (obligatoire chez les hanafites).",
+            "fa": "دو رکعت سنت فجر، وتر (نزد حنفیان واجب است).",
+            "ms": "Dua rakaat sebelum Subuh, witir (wajib bagi Hanafi).",
+            "ur": "فجر کی دو سنتیں، وتر (احناف کے نزدیک واجب)۔"
+        }
+    },
+    {
+        "term": {
+            "ar": "المباح",
+            "en": "Mubah (Permissible)",
+            "fr": "Mubah (Permis)",
+            "fa": "مباح",
+            "ms": "Mubah",
+            "ur": "مباح"
+        },
+        "definition": {
+            "ar": "ما خير الشارع بين فعله وتركه، ولا ثواب على فعله ولا عقاب على تركه.",
+            "en": "What the Lawgiver has left optional; no reward for doing it and no punishment for abandoning it.",
+            "fr": "Ce que le Législateur a laissé facultatif ; pas de récompense pour l'accomplir ni de punition pour l'abandonner.",
+            "fa": "آنچه شارع بین انجام و ترک آن مخیر کرده است؛ نه پاداشی بر انجام آن و نه عقابی بر ترک آن.",
+            "ms": "Apa yang Pembuat Syariat memberi pilihan antara melakukannya atau meninggalkannya; tiada pahala untuk melakukannya dan tiada hukuman untuk meninggalkannya.",
+            "ur": "وہ چیز جسے شارع نے اختیاری چھوڑ دیا ہے؛ کرنے پر کوئی ثواب نہیں اور چھوڑنے پر کوئی سزا نہیں۔"
+        },
+        "example": {
+            "ar": "الأكل من الطيبات، اختيار لون الثوب.",
+            "en": "Eating wholesome food; choosing the color of one's clothing.",
+            "fr": "Manger des aliments licites ; choisir la couleur de son vêtement.",
+            "fa": "خوردن غذاهای پاکیزه، انتخاب رنگ لباس.",
+            "ms": "Makan makanan yang baik, memilih warna pakaian.",
+            "ur": "پاکیزہ کھانا کھانا، لباس کا رنگ چننا۔"
+        }
+    },
+    {
+        "term": {
+            "ar": "الحرام",
+            "en": "Haram (Prohibited)",
+            "fr": "Haram (Interdit)",
+            "fa": "حرام",
+            "ms": "Haram",
+            "ur": "حرام"
+        },
+        "definition": {
+            "ar": "ما طلب الشارع تركه طلباً جازماً، يُعاقب فاعله ويُثاب تاركه امتثالاً.",
+            "en": "What the Lawgiver has decisively forbidden; the doer is punished, and the one who abstains in obedience is rewarded.",
+            "fr": "Ce que le Législateur a interdit de façon décisive ; celui qui le fait est puni, et celui qui s'en abstient par obéissance est récompensé.",
+            "fa": "آنچه شارع به طور قطعی از آن نهی کرده است؛ انجام‌دهنده مجازات می‌شود و ترک‌کننده به دلیل اطاعت پاداش می‌گیرد.",
+            "ms": "Apa yang Pembuat Syariat telah melarang dengan tegas; yang melakukannya dihukum, dan yang meninggalkannya kerana kepatuhan diberi pahala.",
+            "ur": "وہ چیز جسے شارع نے قطعی طور پر منع کیا ہے؛ کرنے والا سزا پاتا ہے اور چھوڑنے والا اطاعت کی وجہ سے ثواب پاتا ہے۔"
+        },
+        "example": {
+            "ar": "الربا، أكل لحم الخنزير.",
+            "en": "Usury (riba); eating pork.",
+            "fr": "L'usure (riba) ; consommer du porc.",
+            "fa": "ربا، خوردن گوشت خوک.",
+            "ms": "Riba, memakan daging babi.",
+            "ur": "سود، خنزیر کا گوشت کھانا۔"
+        }
+    },
+    {
+        "term": {
+            "ar": "المكروه",
+            "en": "Makruh (Disliked)",
+            "fr": "Makruh (Réprouvé)",
+            "fa": "مکروه",
+            "ms": "Makruh",
+            "ur": "مکروہ"
+        },
+        "definition": {
+            "ar": "ما طلب الشارع تركه طلباً غير جازم، يُثاب تاركه ولا يُعاقب فاعله.",
+            "en": "What the Lawgiver has discouraged without decisiveness; rewarded for abandoning, not punished for doing.",
+            "fr": "Ce que le Législateur a découragé sans caractère décisif ; récompensé pour l'abandon, non puni pour l'accomplissement.",
+            "fa": "آنچه شارع به طور غیر قطعی از آن نهی کرده است؛ ترک‌کننده پاداش می‌گیرد و انجام‌دهنده مجازات نمی‌شود.",
+            "ms": "Apa yang Pembuat Syariat telah tidak menggalakkan tanpa ketegasan; diberi pahala jika ditinggalkan, tidak dihukum jika dilakukan.",
+            "ur": "وہ چیز جسے شارع نے غیر قطعی طور پر ناپسند کیا ہے؛ چھوڑنے والا ثواب پاتا ہے، کرنے والا سزا نہیں پاتا۔"
+        },
+        "example": {
+            "ar": "الأكل من ثوم نيء قبل الذهاب إلى المسجد، الإسراف في الماء عند الوضوء.",
+            "en": "Eating raw garlic before going to the mosque; excessive use of water in ablution.",
+            "fr": "Manger de l'ail cru avant d'aller à la mosquée ; le gaspillage d'eau lors des ablutions.",
+            "fa": "خوردن سیر خام پیش از رفتن به مسجد، اسراف در آب وضو.",
+            "ms": "Makan bawang putih mentah sebelum ke masjid, membazir air ketika wuduk.",
+            "ur": "مسجد جانے سے پہلے کچا لہسن کھانا، وضو میں پانی کا اسراف۔"
+        }
+    },
+    {
+        "term": {
+            "ar": "الحلال",
+            "en": "Halal (Lawful)",
+            "fr": "Halal (Licite)",
+            "fa": "حلال",
+            "ms": "Halal",
+            "ur": "حلال"
+        },
+        "definition": {
+            "ar": "ما أحله الشارع وأباحه، وهو يشمل الواجب والمستحب والمباح، وهو مقابل للحرام.",
+            "en": "What the Lawgiver has made lawful and permissible; it includes obligations, recommendations, and permissibles, and is the opposite of Haram.",
+            "fr": "Ce que le Législateur a rendu licite et permis ; cela inclut les obligations, les recommandations et les permissibles, et est l'opposé de Haram.",
+            "fa": "آنچه شارع حلال و مجاز کرده است؛ شامل واجبات، مستحبات و مباحات می‌شود و مقابل حرام است.",
+            "ms": "Apa yang Pembuat Syariat telah halalkan dan benarkan; ia termasuk kewajipan, galakan dan harus, dan bertentangan dengan Haram.",
+            "ur": "وہ چیز جسے شارع نے حلال اور جائز کیا ہے؛ اس میں واجبات، مستحبات اور مباحات شامل ہیں، اور یہ حرام کے مقابل ہے۔"
+        },
+        "example": {
+            "ar": "البيع المباح، الطعام الحلال.",
+            "en": "A permissible sale; lawful food.",
+            "fr": "Une vente licite ; une nourriture halal.",
+            "fa": "خرید و فروش مباح، غذای حلال.",
+            "ms": "Jualan yang harus, makanan halal.",
+            "ur": "جائز بیع، حلال کھانا۔"
+        }
     }
 ]
