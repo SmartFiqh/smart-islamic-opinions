@@ -7,13 +7,26 @@ from utils.constants import GROUPS, TOPICS, LEVELS, MADHHAB_NAMES
 def render_search_section(T, db, ai, search):
     """عرض قسم البحث"""
     
+    # تأكد من وجود lang في session_state
+    if "lang" not in st.session_state:
+        st.session_state.lang = "ar"
+    
+    lang = st.session_state.lang
+    
     # الخطوة 1: اختيار المذهب
     st.markdown(f"### {T['s1_title']}")
+    
+    # استخدام دالة format_func مع معالجة آمنة
+    def get_group_name(g):
+        try:
+            return GROUPS[g][lang]
+        except:
+            return g
     
     group_code = st.radio(
         T["group_q"],
         list(GROUPS.keys()),
-        format_func=lambda g: GROUPS[g][st.session_state.lang],
+        format_func=get_group_name,
         horizontal=False,
         label_visibility="collapsed",
         key="group_radio",
@@ -22,16 +35,22 @@ def render_search_section(T, db, ai, search):
     st.caption(T["multi_hint"])
     
     if len(sub_codes) > 1:
+        def get_madhab_name(m):
+            try:
+                return MADHHAB_NAMES[m][lang]
+            except:
+                return m
+        
         selected_madhabs = st.multiselect(
             T["sub_select"],
             options=sub_codes,
             default=st.session_state.get("selected_madhabs", [sub_codes[0]]),
-            format_func=lambda c: MADHHAB_NAMES[c][st.session_state.lang],
+            format_func=get_madhab_name,
             key="madhab_multiselect",
         )
     else:
         selected_madhabs = sub_codes
-        st.caption(f"**{MADHHAB_NAMES[sub_codes[0]][st.session_state.lang]}**")
+        st.caption(f"**{MADHHAB_NAMES[sub_codes[0]][lang]}**")
     
     st.session_state.selected_madhabs = selected_madhabs
     
@@ -39,10 +58,17 @@ def render_search_section(T, db, ai, search):
     
     # الخطوة 2: اختيار الموضوع
     st.markdown(f"### {T['s2_title']}")
+    
+    def get_topic_name(t):
+        try:
+            return TOPICS[t][lang]
+        except:
+            return t
+    
     topic = st.radio(
         T["topic_q"],
         list(TOPICS.keys()),
-        format_func=lambda t: TOPICS[t][st.session_state.lang],
+        format_func=get_topic_name,
         horizontal=False,
         label_visibility="collapsed",
         key="topic_radio",
@@ -52,10 +78,17 @@ def render_search_section(T, db, ai, search):
     
     # الخطوة 3: طريقة عرض الإجابة
     st.markdown(f"### {T['s3_title']}")
+    
+    def get_level_name(l):
+        try:
+            return LEVELS[l][lang]
+        except:
+            return l
+    
     level = st.radio(
         T["level_q"],
         list(LEVELS.keys()),
-        format_func=lambda lv: LEVELS[lv][st.session_state.lang],
+        format_func=get_level_name,
         horizontal=False,
         label_visibility="collapsed",
         key="level_radio",
