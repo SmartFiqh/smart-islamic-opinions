@@ -1,0 +1,106 @@
+[
+    {
+        "name": {
+            "ar": "الأمر والنهي",
+            "en": "Commands and prohibitions",
+            "fr": "Commandements et interdictions",
+            "fa": "امر و نهی",
+            "ms": "Perintah dan larangan",
+            "ur": "امر و نہی"
+        },
+        "definition": {
+            "ar": "بحث دلالات صيغ الأمر والنهي وآثارها في إثبات الأحكام التكليفية.",
+            "en": "Analysis of the implications of commands and prohibitions and their effects in establishing legal obligations.",
+            "fr": "Analyse des implications des commandements et interdictions et de leurs effets dans l'établissement des obligations juridiques.",
+            "fa": "بررسی دلالت‌های صیغ امر و نهی و آثار آن در اثبات احکام تکلیفی.",
+            "ms": "Analisis maksud perintah dan larangan serta kesannya dalam menetapkan hukum taklifi.",
+            "ur": "امر و نہی کے صیغوں کی دلالات اور ان کے تکلیفی احکام پر اثرات کا مطالعہ۔"
+        },
+        "note": {
+            "ar": "تختلف بعض تطبيقاته بحسب القرائن والسياق.",
+            "en": "Applications may vary according to context and indications.",
+            "fr": "Les applications peuvent varier selon le contexte et les indications.",
+            "fa": "برخی کاربردها با توجه به قرائن و زمینه متفاوت است.",
+            "ms": "Aplikasi mungkin berbeza mengikut konteks dan petunjuk.",
+            "ur": "سیاق و سباق کے مطابق کچھ اطلاقات مختلف ہو سکتی ہیں۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "العام والخاص",
+            "en": "General and specific texts",
+            "fr": "Textes généraux et spécifiques",
+            "fa": "عام و خاص",
+            "ms": "Am dan khas",
+            "ur": "عام و خاص"
+        },
+        "definition": {
+            "ar": "دراسة النصوص العامة وما يرد عليها من تخصيص يخرج بعض أفرادها من حكم العام.",
+            "en": "Study of general texts and the specification that excludes some individuals from the general ruling.",
+            "fr": "Étude des textes généraux et de la spécification qui en exclut certains individus.",
+            "fa": "بررسی نصوص عمومی و تخصیص‌های وارد بر آن که برخی افراد را از حکم عام خارج می‌کند.",
+            "ms": "Kajian teks umum dan pengkhususan yang mengeluarkan sebahagian individu daripada hukum umum.",
+            "ur": "عام نصوص اور ان پر وارد ہونے والے تخصیص کا مطالعہ جو بعض افراد کو عام حکم سے خارج کرتا ہے۔"
+        },
+        "note": {
+            "ar": "يبحث الأصولي في دلالة اللفظ وحدود شموله.",
+            "en": "The jurist examines the scope and meaning of the wording.",
+            "fr": "Le juriste examine la portée et le sens de la formulation.",
+            "fa": "اصولی در دلالت لفظ و حدود شمول آن بحث می‌کند.",
+            "ms": "Usuliyyin mengkaji makna lafaz dan batas cakupannya.",
+            "ur": "اصولی لفظ کی دلالت اور اس کے شمول کی حدود کا جائزہ لیتا ہے۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "المطلق والمقيد",
+            "en": "Unrestricted and restricted texts",
+            "fr": "Textes absolus et restreints",
+            "fa": "مطلق و مقید",
+            "ms": "Mutlaq dan muqayyad",
+            "ur": "مطلق و مقید"
+        },
+        "definition": {
+            "ar": "الموازنة بين النص المطلق والنص الذي قيده وصف أو شرط، وكيفية حمل المطلق على المقيد.",
+            "en": "Reconciling unrestricted texts with texts limited by a condition or description, and how to apply restrictions.",
+            "fr": "La conciliation entre les textes absolus et ceux limités par une condition ou une description.",
+            "fa": "موازنه بین نص مطلق و نصی که با وصف یا شرط مقید شده است.",
+            "ms": "Mengimbangi teks mutlaq dengan teks yang dibatasi oleh syarat atau sifat.",
+            "ur": "مطلق نص اور اس نص کے درمیان توازن جو کسی وصف یا شرط سے مقید ہے۔"
+        },
+        "note": {
+            "ar": "يُنظر في اتحاد الحكم والسبب والسياق.",
+            "en": "The legal ruling, cause, and context are considered.",
+            "fr": "La règle, la cause et le contexte sont pris en compte.",
+            "fa": "اتحاد حکم، سبب و زمینه بررسی می‌شود.",
+            "ms": "Kesatuan hukum, sebab dan konteks dipertimbangkan.",
+            "ur": "حکم، سبب اور سیاق و سباق کی یکسانیت پر نظر کیا جاتا ہے۔"
+        }
+    },
+    {
+        "name": {
+            "ar": "المصلحة والاستصحاب",
+            "en": "Maslahah and presumption of continuity",
+            "fr": "Maslaha et présomption de continuité",
+            "fa": "مصلحت و استصحاب",
+            "ms": "Maslahah dan istishab",
+            "ur": "مصلحت و استصحاب"
+        },
+        "definition": {
+            "ar": "منهج للنظر في المصلحة المعتبرة واستمرار الحكم السابق عند عدم وجود دليل على التغيير.",
+            "en": "A methodology for considering recognized benefit and the continuity of a previous ruling in the absence of evidence of change.",
+            "fr": "Une méthodologie pour considérer l'intérêt reconnu et la continuité d'un jugement antérieur en l'absence de preuve de changement.",
+            "fa": "روشی برای بررسی مصلحت معتبر و استمرار حکم سابق در صورت عدم وجود دلیل بر تغییر.",
+            "ms": "Kaedah untuk mempertimbangkan maslahah yang diiktiraf dan kesinambungan hukum asal apabila tiada dalil yang mengubahnya.",
+            "ur": "مصلحت معتبر اور ناقل کی عدم موجودگی میں سابق حکم کے استمرار پر نظر کا طریقہ۔"
+        },
+        "note": {
+            "ar": "تختلف حدود الاعتماد عليهما بين المدارس الفقهية.",
+            "en": "Schools differ in the extent to which they rely on these principles.",
+            "fr": "Les écoles divergent quant à leur utilisation.",
+            "fa": "میزان اعتماد بر این دو در میان مذاهب فقهی متفاوت است.",
+            "ms": "Tahap pergantungan kepada prinsip ini berbeza antara mazhab.",
+            "ur": "ان اصولوں پر اعتماد کی حد مذاہب فقہیہ میں مختلف ہے۔"
+        }
+    }
+]
