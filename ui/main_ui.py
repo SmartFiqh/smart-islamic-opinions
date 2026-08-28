@@ -11,6 +11,12 @@ from translations.ui_texts import UI
 def render_app(db, ai, search, ref_manager):
     """عرض واجهة التطبيق الرئيسية"""
     
+    # تأكد من وجود lang في session_state
+    if "lang" not in st.session_state:
+        st.session_state.lang = "ar"
+    
+    lang = st.session_state.lang
+    
     # تطبيق التنسيقات
     apply_css()
     
@@ -21,6 +27,19 @@ def render_app(db, ai, search, ref_manager):
     # RTL support
     is_rtl = lang in ["ar", "fa", "ur"]
     direction = "rtl" if is_rtl else "ltr"
+    align = "right" if is_rtl else "left"
+    
+    # رأس الصفحة مع دعم RTL
+    st.markdown(f"""
+    <style>
+    .stApp {{ direction: {direction}; }}
+    .stApp p, .stApp li, .stApp label, .stApp span,
+    .stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp h5 {{
+        text-align: {align};
+        line-height: 1.9;
+    }}
+    </style>
+    """, unsafe_allow_html=True)
     
     # رأس الصفحة
     st.markdown(f"""
