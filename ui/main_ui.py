@@ -34,4 +34,36 @@ def render_app(db, ai, search, ref_manager):
                 <line x1="60" y1="50" x2="60" y2="88" stroke="#f2e6c9" stroke-width="3"/>
                 <path d="M32 59 Q46 55 58 59" stroke="#f2e6c9" stroke-width="1.4" fill="none" opacity="0.65"/>
                 <path d="M32 67 Q46 63 58 67" stroke="#f2e6c9" stroke-width="1.4" fill="none" opacity="0.65"/>
-                <path d="M32 75 Q46 71 58 75" stroke="#f2e6c9" stroke-width="1.4"
+                <path d="M32 75 Q46 71 58 75" stroke="#f2e6c9" stroke-width="1.4" fill="none" opacity="0.65"/>
+                <path d="M62 59 Q74 55 88 59" stroke="#f2e6c9" stroke-width="1.4" fill="none" opacity="0.65"/>
+                <path d="M62 67 Q74 63 88 67" stroke="#f2e6c9" stroke-width="1.4" fill="none" opacity="0.65"/>
+                <path d="M62 75 Q74 71 88 75" stroke="#f2e6c9" stroke-width="1.4" fill="none" opacity="0.65"/>
+            </svg>
+        </div>
+        <h1>📖 {T['app_title']}</h1>
+        <p>{T['app_subtitle']}</p>
+        <div class="app-badges">
+            <span class="app-badge">📖 8 {T['badge_madhabs']}</span>
+            <span class="app-badge">🌐 6 {T['badge_langs']}</span>
+            <span class="app-badge">🗺️ 57 {T['badge_countries']}</span>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    if not ai.available:
+        st.caption(f"ℹ️ {T['ai_unavailable']}")
+    
+    # ===== تخطيط العمودين =====
+    col_left, col_right = st.columns([5, 7], gap="large")
+    
+    # ===== العمود الأيسر: خطوات طرح السؤال =====
+    with col_left:
+        st.markdown('<div class="left-column">', unsafe_allow_html=True)
+        render_search_section(T, db, ai, search)
+        st.markdown('</div>', unsafe_allow_html=True)
+    
+    # ===== العمود الأيمن: المعلومات التعليمية =====
+    with col_right:
+        st.markdown('<div class="right-column">', unsafe_allow_html=True)
+        render_info_sections(T)
+        st.markdown('</div>', unsafe_allow_html=True)
