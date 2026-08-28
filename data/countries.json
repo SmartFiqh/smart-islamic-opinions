@@ -1,0 +1,22 @@
+[
+    {
+        "flag": "🇸🇦",
+        "name": {"ar": "السعودية", "en": "Saudi Arabia"},
+        "madhab": "hanbali",
+        "population": "36.4M"
+    },
+    {
+        "flag": "🇪🇬",
+        "name": {"ar": "مصر", "en": "Egypt"},
+        "madhab": "shafii",
+        "population": "112.7M",
+        "diverse": false
+    },
+    {
+        "flag": "🇱🇧",
+        "name": {"ar": "لبنان", "en": "Lebanon"},
+        "madhab": ["shafii", "jafari"],
+        "population": "5.4M",
+        "diverse": true
+    }
+]
